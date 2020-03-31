@@ -1,9 +1,8 @@
 var app = new Vue({
   el: '#app',
   data: {
-    title: `Datos de la API de castilla y Leon a fecha de ${new Date().toLocaleString()}`,
+    title: `Datos de la API de la Junta de Castilla y León a fecha de ${new Date().toLocaleString()}`,
     tableSelected: "Salamanca",
-    type: '',
     canvasData: {
       state: "Salamanca",
       type: ""
@@ -15,18 +14,19 @@ var app = new Vue({
     draw() {
       console.log("Hola")
       var ctx = document.getElementById('myChart').getContext('2d');
+      var values = [...this.data[this.canvasData.state]].reverse();
       var chart = new Chart(ctx, {
         // The type of chart we want to create
         type: 'line',
 
         // The data for our dataset
         data: {
-          labels: this.data[this.canvasData.state].map(o => o.fecha),
+          labels: values.map(o => o.fecha),
           datasets: [{
             label: this.canvasData.type,
             backgroundColor: 'rgb(255, 99, 132)',
             borderColor: 'rgb(255, 99, 132)',
-            data: this.data[this.canvasData.state].map(o => o[this.canvasData.type])
+            data: values.map(o => o[this.canvasData.type])
           }]
         },
 
@@ -39,6 +39,18 @@ var app = new Vue({
 
       this.canvasData.type = "altas"
     },
+    dateOrder(a, b) {
+      var d1 = new Date(a.fecha);
+      var d2 = new Date(b.fecha);;
+      if (d1.getFullYear() <= d2.getFullYear()) {
+        if (d1.getMonth() <= d2.getFullYear()) {
+          if (d1.getDate() <= d2.getDate()) {
+            return 1;
+          }
+        }
+      }
+      return -1;
+    },
     orderData(data) {
       var grouped = [...data]
         .reduce((r, { fields }) => {
@@ -49,7 +61,7 @@ var app = new Vue({
       for (let key of Object.keys(grouped)) {
         this.provincesForSelects.push(key);
         var list = grouped[key]
-          .sort((a, b) => a.fecha < b.fecha);
+          .sort(this.dateOrder);
 
         list.map((item, index, arr) => {
           if (index != arr.length - 1) {

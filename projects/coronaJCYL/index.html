@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  <div class="row">
+  <div class="container-fluid row">
     <main id="app" class="offset-md-1 col-md-10">
-      <p class="display-4">{{ title }}</p>
+      <p class="display-4 text-center">{{ title }}</p>
       <!-- Dashboard -->
       <div>
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
@@ -25,7 +25,7 @@
             </select>
           </div>
           <div class="btn-toolbar mb-2 mb-md-0">
-            <div class="btn-group mr-2">
+            <div class="btn-group btn-group-sm mr-2">
               <button class="btn btn-sm"
                 :class="[ canvasData.type == 'nuevos_positivos' ? 'btn-secondary' : 'btn-outline-secondary' ]"
                 @click="canvasData.type = 'nuevos_positivos'">Nuevos positivos</button>
@@ -35,6 +35,8 @@
               <button class="btn btn-sm"
                 :class="[ canvasData.type == 'altas' ? 'btn-secondary' : 'btn-outline-secondary' ]"
                 @click="canvasData.type = 'altas'">Altas</button>
+            </div>
+            <div class="btn-group btn-group-sm mr-2">
               <button class="btn btn-sm"
                 :class="[ canvasData.type == 'nuevas_altas' ? 'btn-secondary' : 'btn-outline-secondary' ]"
                 @click="canvasData.type = 'nuevas_altas'">Nuevas altas</button>
@@ -90,11 +92,16 @@
           </table>
         </div>
       </div>
+    </main>
   </div>
-  </main>
+  <div>
+    <p class="text-center lead">Corana JCYL Viewer v0.01</p>
+    <p class="text-center lead">
+      <a href="https://data.opendatasoft.com/api/records/1.0/search/?dataset=situacion-epidemiologica-coronavirus-en-castilla-y-leon%40jcyl&rows=-1"
+        target="_blank">API owner opendatasoft</a>
+    </p>
   </div>
 
-  <script src="http://momentjs.com/downloads/moment.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
