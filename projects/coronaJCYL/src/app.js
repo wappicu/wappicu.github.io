@@ -40,8 +40,10 @@ var app = new Vue({
       this.canvasData.type = "altas"
     },
     dateOrder(a, b) {
+      return new Date(b.fecha) - new Date(a.fecha);
+      /*
       var d1 = new Date(a.fecha);
-      var d2 = new Date(b.fecha);;
+      var d2 = new Date(b.fecha);
       if (d1.getFullYear() <= d2.getFullYear()) {
         if (d1.getMonth() <= d2.getFullYear()) {
           if (d1.getDate() <= d2.getDate()) {
@@ -49,7 +51,7 @@ var app = new Vue({
           }
         }
       }
-      return -1;
+      return -1;*/
     },
     orderData(data) {
       var grouped = [...data]
