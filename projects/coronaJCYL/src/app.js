@@ -4,8 +4,8 @@ var app = new Vue({
     return {
       name: "",
       provincesName: [],
-      data: {},
-      loadedHospital: false,
+      epidemiologicalData: {},
+      hospitalData: {},
       viewData: {}
     }
   },
@@ -105,6 +105,7 @@ var app = new Vue({
     formatHospital(stateName, hospitalData) {
       var provincesName = hospitalData.facet_groups.find(o => o.name === "provincia").facets.map(o => o.name).sort(Intl.Collator().compare);
 
+      var aux = { uci: 0, plant: 0, total: 0 };
       var res = {};
       res[stateName] = {};
 
@@ -120,70 +121,80 @@ var app = new Vue({
             hospitalizados_uci,
             hospitalizados_planta } }) => {
 
-          if (acc[state][fecha]) {
-            acc[state][fecha].hospital.uci += hospitalizados_uci;
-            acc[state][fecha].hospital.plant += hospitalizados_planta;
+          if (acc.res[state][fecha]) {
+            acc.res[state][fecha].uci += hospitalizados_uci;
+            acc.res[state][fecha].plant += hospitalizados_planta;
+            acc.res[state][fecha].total += hospitalizados_planta + hospitalizados_uci;
           }
           else {
-            acc[state][fecha] = {
-              hospital: {
-                uci: hospitalizados_uci,
-                plant: hospitalizados_planta
-              }
+            acc.res[state][fecha] = {
+              uci: hospitalizados_uci,
+              plant: hospitalizados_planta,
+              total: hospitalizados_uci + hospitalizados_planta
             };
           }
 
-          if (acc[stateName][fecha]) {
-            acc[stateName][fecha].hospital.uci += hospitalizados_uci;
-            acc[stateName][fecha].hospital.plant += hospitalizados_planta;
+          if (acc.res[stateName][fecha]) {
+            acc.res[stateName][fecha].uci += hospitalizados_uci;
+            acc.res[stateName][fecha].plant += hospitalizados_planta;
+            acc.res[stateName][fecha].total += hospitalizados_planta + hospitalizados_uci;
           }
           else {
-            acc[stateName][fecha] = {
-              hospital: {
-                uci: hospitalizados_uci,
-                plant: hospitalizados_planta
-              }
+            acc.res[stateName][fecha] = {
+              uci: hospitalizados_uci,
+              plant: hospitalizados_planta,
+              total: hospitalizados_planta + hospitalizados_uci
             };
           }
+          if (acc.aux.uci < acc.res[state][fecha].uci)
+            acc.aux.uci = acc.res[state][fecha].uci
+          if (acc.aux.plant < acc.res[state][fecha].plant)
+            acc.aux.plant = acc.res[state][fecha].plant
+          if (acc.aux.total < acc.res[state][fecha].total)
+            acc.aux.total = acc.res[state][fecha].total
 
           return acc;
-        }, res);
+        }, { res, aux });
 
-      return { provincesName, data };
+      return { provincesName, data: data.res, axis: data.aux };
     },
     formatData(stateName, epidemiologicalData, hospitalData) {
       var { provincesName, data, axisMax } = this.formateEpidemiological(stateName, epidemiologicalData);
       // console.log(JSON.stringify(axisMax));
 
-      var { provincesName: pN2, data: dataHospital, error } = this.formatHospital(stateName, hospitalData);
+      //var { provincesName: pN2, data: dataHospital, error, axis: axisHospital } = this.formatHospital(stateName, hospitalData);
 
-      if (!error && (JSON.stringify(provincesName) == JSON.stringify(pN2))) {
-        Object.entries(dataHospital).forEach(([k, v]) => {
-          Object.entries(v).forEach(([k1, v2]) => {
-            data[k][k1].hospital = v2.hospital;
-          });
-        });
-        this.loadedHospital = true;
-      }
+      /*if ((JSON.stringify(provincesName) != JSON.stringify(pN2))) {
+        throw new Error("Provinces are diferent")
+      }*/
 
       Object.keys(axisMax).forEach(k => {
         axisMax[k].total = this.calculate(axisMax[k].total, 1.1);
         axisMax[k].low = this.calculate(axisMax[k].new, 1 / 2);
-        axisMax[k].new = this.calculate(axisMax[k].new, 3);
+        axisMax[k].new = this.calculate(axisMax[k].new, 3.5);
       });
-
-      this.provincesName = provincesName;
       this.viewData = {
         stateName,
         axisMax,
         types: [
           { en: "Cases", es: "Casos", default: "cases" },
-          { en: "Discharged", es: "Altas", default: "discharged" },
           { en: "Deaths", es: "Fallecidos", default: "deaths" },
-          { en: "Hospital", es: "Hospitalizados", default: "hospital" }
+          { en: "Discharged", es: "Altas", default: "discharged" }
         ], value: "cases"
       };
-      this.data = data;
+
+      /*if (!error) {
+        this.hospitalData = dataHospital;
+        axisMax["hospital"] = {
+          total: this.calculate(axisHospital.total, 1.1),
+          new: this.calculate(axisHospital.plant, 3),
+          low: this.calculate(axisHospital.uci, 3)
+        };
+        this.viewData.types.push({ en: "Hospital", es: "Hospitalizados", default: "hospital" });
+      }*/
+
+      this.provincesName = provincesName;
+      this.epidemiologicalData = data;
       this.name = stateName;
 
       this.correctTransform = 0;
@@ -221,6 +232,11 @@ var app = new Vue({
     },
     buttonChange(name) {
       return this.viewData.value = name;
+    }
+  },
+  computed: {
+    loadHospitalData() {
+      return this.hospitalData && this.hospitalData == {}
     }
   },
   mounted() {

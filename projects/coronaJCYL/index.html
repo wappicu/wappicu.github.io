@@ -32,9 +32,12 @@
       <p class="font-weight-lighter">Comunidad autónoma: {{ name }}</p>
       <!-- State chat-->
       <div>
-        <bar-chart :id="name" :data="data[name]" :view-data="viewData" v-if="loadedHospital">
+        <bar-chart :id="name" :data="epidemiologicalData[name]" :view-data="viewData"
+          v-show="viewData.value != 'hospital'">
         </bar-chart>
-        <line-chart :id="name" :data="data[name]" :view-data="viewData" v-else></line-chart>
+        <line-chart :id="name" :data="hospitalData[name]" :view-data="viewData" v-if="loadHospitalData"
+          v-show="viewData.value == 'hospital'">
+        </line-chart>
       </div>
       <hr />
       <!-- Provinces chats -->
@@ -44,9 +47,11 @@
           <div class="text-center">
             <p>{{pName}}</p>
           </div>
-          <bar-chart :id="pName" :data="data[pName]" :view-data="viewData" v-if="loadedHospital" max="400">
+          <bar-chart :id="pName" :data="epidemiologicalData[pName]" :view-data="viewData"
+            v-show="viewData.value != 'hospital'">
           </bar-chart>
-          <line-chart :id="pName" :data="data[pName]" :view-data="viewData" v-else></line-chart>
+          <line-chart :id="pName" :data="hospitalData[pName]" :view-data="viewData" v-if="loadHospitalData"
+            v-show="viewData.value == 'hospital'"></line-chart>
         </div>
       </div>
     </div>
@@ -54,9 +59,8 @@
       <button class="btn btn-primary" @click="loadData">Reload</button>
     </div>
   </main>
-
   <footer>
-    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v1.00 - Licence MIT</p>
+    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v1.01 - Licence MIT</p>
   </footer>
 
   <!-- Scripts -->

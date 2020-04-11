@@ -1,16 +1,441 @@
-const hospitalData = {
-  "nhits": 322,
+const hospitalData =
+{
+  "nhits": 350,
   "parameters": {
     "dataset": [
       "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl"
     ],
     "timezone": "UTC",
     "rows": 10000,
-    "sort": ["fecha"],
+    "sort": [
+      "fecha"
+    ],
     "format": "json",
-    "facet": ["provincia"]
+    "facet": [
+      "provincia"
+    ]
   },
   "records": [
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "574de8a8569fafd5d04f0a696692d9df7305b528",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 353,
+        "fallecimientos": 81,
+        "fecha": "2020-04-11",
+        "codigo_ine": 9059,
+        "hospitalizados_uci": 49,
+        "hospitalizados_planta": 140,
+        "hospital": "Complejo Asistencial Universitario de Burgos"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "c7d60d3cb5812415ae3f40d64a5faca65bf408d8",
+      "fields": {
+        "provincia": "León",
+        "altas": 625,
+        "fallecimientos": 204,
+        "fecha": "2020-04-11",
+        "codigo_ine": 24089,
+        "hospitalizados_uci": 40,
+        "hospitalizados_planta": 200,
+        "hospital": "Complejo Asistencial Universitario de León"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "717df68312e30147a298caa40ec2208f73876b82",
+      "fields": {
+        "provincia": "León",
+        "altas": 126,
+        "fallecimientos": 32,
+        "fecha": "2020-04-11",
+        "codigo_ine": 24089,
+        "hospitalizados_uci": 11,
+        "hospitalizados_planta": 62,
+        "hospital": "Hospital El Bierzo"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "4a077840cf30929df167913b8959deb7d40bddbd",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 171,
+        "fallecimientos": 46,
+        "fecha": "2020-04-11",
+        "codigo_ine": 34120,
+        "hospitalizados_uci": 21,
+        "hospitalizados_planta": 96,
+        "hospital": "Complejo Asistencial Universitario de Palencia"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "00daeff30b5ab71471228aa665e42910e52ccfb5",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 228,
+        "fallecimientos": 80,
+        "fecha": "2020-04-11",
+        "codigo_ine": 42173,
+        "hospitalizados_uci": 20,
+        "hospitalizados_planta": 104,
+        "hospital": "Complejo Asistencial de Soria"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "a29d058a4f3da2c2a04ed7a0a82a57ff8b8798e9",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 47,
+        "fallecimientos": 12,
+        "fecha": "2020-04-11",
+        "codigo_ine": 47186,
+        "hospitalizados_uci": 3,
+        "hospitalizados_planta": 27,
+        "hospital": "Hospital de Medina del Campo"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "05a7632626deb64caaf1c62d07bff5c134e21038",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 148,
+        "fallecimientos": 51,
+        "fecha": "2020-04-11",
+        "codigo_ine": 49275,
+        "hospitalizados_uci": 12,
+        "hospitalizados_planta": 83,
+        "hospital": "Complejo Asistencial de Zamora"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "11d2bf82df404385ee8d0a481446c9acc8d2b303",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 347,
+        "fallecimientos": 94,
+        "fecha": "2020-04-11",
+        "codigo_ine": 5019,
+        "hospitalizados_uci": 12,
+        "hospitalizados_planta": 126,
+        "hospital": "Complejo Asistencial de Ávila"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "4d9fcceb24b9d997f2c699e98a0105b5d784aa5d",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 64,
+        "fallecimientos": 16,
+        "fecha": "2020-04-11",
+        "codigo_ine": 9059,
+        "hospitalizados_uci": 0,
+        "hospitalizados_planta": 20,
+        "hospital": "Hospital Santiago Apóstol"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "c556957dcf58c15bd56c287b64685ea05b9f2f0f",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 579,
+        "fallecimientos": 244,
+        "fecha": "2020-04-11",
+        "codigo_ine": 37274,
+        "hospitalizados_uci": 43,
+        "hospitalizados_planta": 307,
+        "hospital": "Complejo Asistencial Universitario de Salamanca"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "250a0ce3479d40c485358c90c6eca660911a4ed1",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 490,
+        "fallecimientos": 139,
+        "fecha": "2020-04-11",
+        "codigo_ine": 40004,
+        "hospitalizados_uci": 23,
+        "hospitalizados_planta": 140,
+        "hospital": "Complejo Asistencial de Segovia"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "24a537d3715886cb1605b7100e201552ad89260e",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 358,
+        "fallecimientos": 101,
+        "fecha": "2020-04-11",
+        "codigo_ine": 47186,
+        "hospitalizados_uci": 47,
+        "hospitalizados_planta": 183,
+        "hospital": "Hospital Clínico Universitario de Valladolid"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "deaa92cb29eba6f0cd3b183fe7b98b2eb1cc3bec",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 75,
+        "fallecimientos": 39,
+        "fecha": "2020-04-11",
+        "codigo_ine": 9059,
+        "hospitalizados_uci": 0,
+        "hospitalizados_planta": 24,
+        "hospital": "Hospital Santos Reyes"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "d71f9e26670e0d3bfc40d5f10c28942a31b0c7c5",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 399,
+        "fallecimientos": 82,
+        "fecha": "2020-04-11",
+        "codigo_ine": 47186,
+        "hospitalizados_uci": 42,
+        "hospitalizados_planta": 112,
+        "hospital": "Hospital Universitario Río Hortega"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "53ec781620945ff668150733de4b3c11d17fe181",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 325,
+        "fallecimientos": 93,
+        "fecha": "2020-04-10",
+        "codigo_ine": 5019,
+        "hospitalizados_uci": 12,
+        "hospitalizados_planta": 134,
+        "hospital": "Complejo Asistencial de Ávila"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "7a4ac82f589a89fa88e66eb0723eb8b66558e341",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 71,
+        "fallecimientos": 37,
+        "fecha": "2020-04-10",
+        "codigo_ine": 9059,
+        "hospitalizados_uci": 0,
+        "hospitalizados_planta": 24,
+        "hospital": "Hospital Santos Reyes"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "eac08de005880c36c66f179608e1354ef46f25f1",
+      "fields": {
+        "provincia": "León",
+        "altas": 121,
+        "fallecimientos": 31,
+        "fecha": "2020-04-10",
+        "codigo_ine": 24089,
+        "hospitalizados_uci": 11,
+        "hospitalizados_planta": 64,
+        "hospital": "Hospital El Bierzo"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "23ca3d9f247fc86a3af80a91c025329aee5c5aac",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 162,
+        "fallecimientos": 44,
+        "fecha": "2020-04-10",
+        "codigo_ine": 34120,
+        "hospitalizados_uci": 19,
+        "hospitalizados_planta": 102,
+        "hospital": "Complejo Asistencial Universitario de Palencia"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "0e6210473f198bbf396e93635b630abdfb627791",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 40,
+        "fallecimientos": 12,
+        "fecha": "2020-04-10",
+        "codigo_ine": 47186,
+        "hospitalizados_uci": 1,
+        "hospitalizados_planta": 31,
+        "hospital": "Hospital de Medina del Campo"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "a9f88d18438067ca57fa8977edc9c86c37f2e804",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 343,
+        "fallecimientos": 79,
+        "fecha": "2020-04-10",
+        "codigo_ine": 9059,
+        "hospitalizados_uci": 48,
+        "hospitalizados_planta": 135,
+        "hospital": "Complejo Asistencial Universitario de Burgos"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "feed0ab11b179e7c3d78dadc1c93f1128e65d517",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 56,
+        "fallecimientos": 16,
+        "fecha": "2020-04-10",
+        "codigo_ine": 9059,
+        "hospitalizados_uci": 0,
+        "hospitalizados_planta": 26,
+        "hospital": "Hospital Santiago Apóstol"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "25fa017bbd1a59bc0822e1b7c66718541595d834",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 219,
+        "fallecimientos": 80,
+        "fecha": "2020-04-10",
+        "codigo_ine": 42173,
+        "hospitalizados_uci": 20,
+        "hospitalizados_planta": 101,
+        "hospital": "Complejo Asistencial de Soria"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "842a0faf5470f1809c570a5c33c1e7c1fb9c463a",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 359,
+        "fallecimientos": 77,
+        "fecha": "2020-04-10",
+        "codigo_ine": 47186,
+        "hospitalizados_uci": 48,
+        "hospitalizados_planta": 131,
+        "hospital": "Hospital Universitario Río Hortega"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "9b83055309dc7a526b05a59beb7ba35c88d7cccf",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 135,
+        "fallecimientos": 49,
+        "fecha": "2020-04-10",
+        "codigo_ine": 49275,
+        "hospitalizados_uci": 12,
+        "hospitalizados_planta": 93,
+        "hospital": "Complejo Asistencial de Zamora"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "433fd3962a1dca8eddb780ae7884673afd92ec68",
+      "fields": {
+        "provincia": "León",
+        "altas": 589,
+        "fallecimientos": 199,
+        "fecha": "2020-04-10",
+        "codigo_ine": 24089,
+        "hospitalizados_uci": 42,
+        "hospitalizados_planta": 210,
+        "hospital": "Complejo Asistencial Universitario de León"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "dec22b1905dc4e00195ea474f2c11f61f1fb7ad1",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 542,
+        "fallecimientos": 236,
+        "fecha": "2020-04-10",
+        "codigo_ine": 37274,
+        "hospitalizados_uci": 45,
+        "hospitalizados_planta": 322,
+        "hospital": "Complejo Asistencial Universitario de Salamanca"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "0a635922fd99be560c377fd65fb2ca3fa050de63",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 470,
+        "fallecimientos": 132,
+        "fecha": "2020-04-10",
+        "codigo_ine": 40004,
+        "hospitalizados_uci": 21,
+        "hospitalizados_planta": 152,
+        "hospital": "Complejo Asistencial de Segovia"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
+    {
+      "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "78239af5b26bea2866252ce01edfaff39bc2f04d",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 325,
+        "fallecimientos": 95,
+        "fecha": "2020-04-10",
+        "codigo_ine": 47186,
+        "hospitalizados_uci": 48,
+        "hospitalizados_planta": 208,
+        "hospital": "Hospital Clínico Universitario de Valladolid"
+      },
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
+    },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b3b37110c0f026eb87784754f4ffbed35fc0c0e3",
@@ -24,7 +449,7 @@ const hospitalData = {
         "hospitalizados_planta": 142,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -37,15 +462,15 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 29,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "a3e914a1a77544004f36386b2e3be9d5eea6372c",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 116,
         "fallecimientos": 31,
         "fecha": "2020-04-09",
@@ -54,7 +479,7 @@ const hospitalData = {
         "hospitalizados_planta": 65,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -69,7 +494,7 @@ const hospitalData = {
         "hospitalizados_planta": 32,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -82,9 +507,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 49,
         "hospitalizados_planta": 140,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -99,22 +524,22 @@ const hospitalData = {
         "hospitalizados_planta": 31,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "3406096f75cd6b33204b868437618c1ba7b31c23",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 550,
         "fallecimientos": 187,
         "fecha": "2020-04-09",
         "codigo_ine": 24089,
         "hospitalizados_uci": 41,
         "hospitalizados_planta": 215,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -129,7 +554,7 @@ const hospitalData = {
         "hospitalizados_planta": 105,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -144,7 +569,7 @@ const hospitalData = {
         "hospitalizados_planta": 341,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -159,7 +584,7 @@ const hospitalData = {
         "hospitalizados_planta": 160,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -172,24 +597,24 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 50,
         "hospitalizados_planta": 218,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "281e770bd81ec9404ec06450e85fbd83e644538b",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 297,
         "fallecimientos": 90,
         "fecha": "2020-04-09",
         "codigo_ine": 5019,
         "hospitalizados_uci": 13,
         "hospitalizados_planta": 156,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -204,7 +629,7 @@ const hospitalData = {
         "hospitalizados_planta": 108,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -219,7 +644,7 @@ const hospitalData = {
         "hospitalizados_planta": 94,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -234,22 +659,22 @@ const hospitalData = {
         "hospitalizados_planta": 32,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "6a074d75b9b14d85c25565077cbf7e7ed3664249",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 514,
         "fallecimientos": 181,
         "fecha": "2020-04-08",
         "codigo_ine": 24089,
         "hospitalizados_uci": 39,
         "hospitalizados_planta": 210,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -264,7 +689,7 @@ const hospitalData = {
         "hospitalizados_planta": 100,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -279,7 +704,7 @@ const hospitalData = {
         "hospitalizados_planta": 34,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -292,9 +717,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 48,
         "hospitalizados_planta": 149,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -309,7 +734,7 @@ const hospitalData = {
         "hospitalizados_planta": 352,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -322,9 +747,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 52,
         "hospitalizados_planta": 228,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -339,22 +764,22 @@ const hospitalData = {
         "hospitalizados_planta": 99,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "191ab0041a7dfac1af14e18a8375c0f9935949bf",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 272,
         "fallecimientos": 85,
         "fecha": "2020-04-08",
         "codigo_ine": 5019,
         "hospitalizados_uci": 13,
         "hospitalizados_planta": 163,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -369,7 +794,7 @@ const hospitalData = {
         "hospitalizados_planta": 144,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -382,15 +807,15 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 29,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "64c2dcea5079d9d9ba75940bfe2039fac4b585b7",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 106,
         "fallecimientos": 29,
         "fecha": "2020-04-08",
@@ -399,7 +824,7 @@ const hospitalData = {
         "hospitalizados_planta": 65,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -414,7 +839,7 @@ const hospitalData = {
         "hospitalizados_planta": 217,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -429,7 +854,7 @@ const hospitalData = {
         "hospitalizados_planta": 121,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -442,9 +867,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 48,
         "hospitalizados_planta": 148,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -459,7 +884,7 @@ const hospitalData = {
         "hospitalizados_planta": 103,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -474,7 +899,7 @@ const hospitalData = {
         "hospitalizados_planta": 151,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -487,9 +912,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 28,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -504,22 +929,22 @@ const hospitalData = {
         "hospitalizados_planta": 36,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "11952c6166b920e517e0bd5dba3d6fbaf180fbce",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 464,
         "fallecimientos": 170,
         "fecha": "2020-04-07",
         "codigo_ine": 24089,
         "hospitalizados_uci": 41,
         "hospitalizados_planta": 214,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -534,7 +959,7 @@ const hospitalData = {
         "hospitalizados_planta": 108,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -549,7 +974,7 @@ const hospitalData = {
         "hospitalizados_planta": 341,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -564,7 +989,7 @@ const hospitalData = {
         "hospitalizados_planta": 113,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -579,28 +1004,28 @@ const hospitalData = {
         "hospitalizados_planta": 36,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "e6e375078f2ef08ebbf5f2d5cfffe41593c84a31",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 253,
         "fallecimientos": 83,
         "fecha": "2020-04-07",
         "codigo_ine": 5019,
         "hospitalizados_uci": 13,
         "hospitalizados_planta": 179,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "e0f91267dfe8fe8f990e3e2339053b228ec10de8",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 100,
         "fallecimientos": 26,
         "fecha": "2020-04-07",
@@ -609,7 +1034,7 @@ const hospitalData = {
         "hospitalizados_planta": 68,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -624,7 +1049,7 @@ const hospitalData = {
         "hospitalizados_planta": 228,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -637,9 +1062,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 50,
         "hospitalizados_planta": 239,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -654,7 +1079,7 @@ const hospitalData = {
         "hospitalizados_planta": 40,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -669,28 +1094,28 @@ const hospitalData = {
         "hospitalizados_planta": 37,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c0da5153bbf97a07d014f8a94e7d3c566b3ac798",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 225,
         "fallecimientos": 79,
         "fecha": "2020-04-06",
         "codigo_ine": 5019,
         "hospitalizados_uci": 13,
         "hospitalizados_planta": 197,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "de738e4cb2733e50af8ca97f883d2d498add155c",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 85,
         "fallecimientos": 24,
         "fecha": "2020-04-06",
@@ -699,7 +1124,7 @@ const hospitalData = {
         "hospitalizados_planta": 72,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -714,7 +1139,7 @@ const hospitalData = {
         "hospitalizados_planta": 352,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -729,7 +1154,7 @@ const hospitalData = {
         "hospitalizados_planta": 114,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -742,9 +1167,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 53,
         "hospitalizados_planta": 258,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -757,9 +1182,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 49,
         "hospitalizados_planta": 161,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -774,7 +1199,7 @@ const hospitalData = {
         "hospitalizados_planta": 155,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -787,24 +1212,24 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 26,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "f95b17bb0b5b177a7b7435189714aa51ae6b2ccc",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 413,
         "fallecimientos": 162,
         "fecha": "2020-04-06",
         "codigo_ine": 24089,
         "hospitalizados_uci": 39,
         "hospitalizados_planta": 251,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -819,7 +1244,7 @@ const hospitalData = {
         "hospitalizados_planta": 118,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -834,7 +1259,7 @@ const hospitalData = {
         "hospitalizados_planta": 239,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -849,7 +1274,7 @@ const hospitalData = {
         "hospitalizados_planta": 103,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -864,22 +1289,22 @@ const hospitalData = {
         "hospitalizados_planta": 41,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b0b33b9482755f06eadc3f8b50c87d01c0ba97c9",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 372,
         "fallecimientos": 153,
         "fecha": "2020-04-05",
         "codigo_ine": 24089,
         "hospitalizados_uci": 40,
         "hospitalizados_planta": 278,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -894,22 +1319,22 @@ const hospitalData = {
         "hospitalizados_planta": 137,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "18c09628e600651393c9dab6734761d96881f90a",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 214,
         "fallecimientos": 73,
         "fecha": "2020-04-05",
         "codigo_ine": 5019,
         "hospitalizados_uci": 15,
         "hospitalizados_planta": 187,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -924,7 +1349,7 @@ const hospitalData = {
         "hospitalizados_planta": 156,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -937,9 +1362,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 25,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -954,7 +1379,7 @@ const hospitalData = {
         "hospitalizados_planta": 110,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -969,7 +1394,7 @@ const hospitalData = {
         "hospitalizados_planta": 241,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -982,9 +1407,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 52,
         "hospitalizados_planta": 246,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -999,7 +1424,7 @@ const hospitalData = {
         "hospitalizados_planta": 38,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1012,9 +1437,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 48,
         "hospitalizados_planta": 162,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1029,13 +1454,13 @@ const hospitalData = {
         "hospitalizados_planta": 108,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "f62d50669478ce8d382dfdbd1fde9c987463907e",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 80,
         "fallecimientos": 22,
         "fecha": "2020-04-05",
@@ -1044,7 +1469,7 @@ const hospitalData = {
         "hospitalizados_planta": 70,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1059,22 +1484,22 @@ const hospitalData = {
         "hospitalizados_planta": 361,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "9b72a9eb3eb81ef01a1cd00cfa06ce5192b5674f",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 205,
         "fallecimientos": 69,
         "fecha": "2020-04-04",
         "codigo_ine": 5019,
         "hospitalizados_uci": 15,
         "hospitalizados_planta": 178,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1089,7 +1514,7 @@ const hospitalData = {
         "hospitalizados_planta": 167,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1104,7 +1529,7 @@ const hospitalData = {
         "hospitalizados_planta": 372,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1119,13 +1544,13 @@ const hospitalData = {
         "hospitalizados_planta": 263,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "55f428788802d3df885239b52749268bae33018c",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 79,
         "fallecimientos": 22,
         "fecha": "2020-04-04",
@@ -1134,7 +1559,7 @@ const hospitalData = {
         "hospitalizados_planta": 67,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1149,7 +1574,7 @@ const hospitalData = {
         "hospitalizados_planta": 33,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1164,7 +1589,7 @@ const hospitalData = {
         "hospitalizados_planta": 112,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1177,9 +1602,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 25,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1194,22 +1619,22 @@ const hospitalData = {
         "hospitalizados_planta": 39,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "ce97146d28bfadfaffb45466400ca61f8fda01ae",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 319,
         "fallecimientos": 137,
         "fecha": "2020-04-04",
         "codigo_ine": 24089,
         "hospitalizados_uci": 39,
         "hospitalizados_planta": 316,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1224,7 +1649,7 @@ const hospitalData = {
         "hospitalizados_planta": 109,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1239,7 +1664,7 @@ const hospitalData = {
         "hospitalizados_planta": 137,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1252,9 +1677,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 52,
         "hospitalizados_planta": 248,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1267,9 +1692,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 51,
         "hospitalizados_planta": 157,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1282,30 +1707,30 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 26,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b426981b6c0711cad05228fd210019d88fddda6b",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 267,
         "fallecimientos": 123,
         "fecha": "2020-04-03",
         "codigo_ine": 24089,
         "hospitalizados_uci": 38,
         "hospitalizados_planta": 353,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "194ec02d8225d76991ed7f73f9ac594bc94eb8a5",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 72,
         "fallecimientos": 21,
         "fecha": "2020-04-03",
@@ -1314,7 +1739,7 @@ const hospitalData = {
         "hospitalizados_planta": 68,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1329,7 +1754,7 @@ const hospitalData = {
         "hospitalizados_planta": 382,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1344,7 +1769,7 @@ const hospitalData = {
         "hospitalizados_planta": 290,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1359,22 +1784,22 @@ const hospitalData = {
         "hospitalizados_planta": 103,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "a2d656a316e27dfba370b02de2f27b675d5468c7",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 170,
         "fallecimientos": 66,
         "fecha": "2020-04-03",
         "codigo_ine": 5019,
         "hospitalizados_uci": 15,
         "hospitalizados_planta": 176,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1389,7 +1814,7 @@ const hospitalData = {
         "hospitalizados_planta": 176,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1404,7 +1829,7 @@ const hospitalData = {
         "hospitalizados_planta": 104,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1417,9 +1842,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 52,
         "hospitalizados_planta": 244,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1434,7 +1859,7 @@ const hospitalData = {
         "hospitalizados_planta": 33,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1447,9 +1872,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 51,
         "hospitalizados_planta": 169,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1464,7 +1889,7 @@ const hospitalData = {
         "hospitalizados_planta": 37,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1479,7 +1904,7 @@ const hospitalData = {
         "hospitalizados_planta": 155,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1494,22 +1919,22 @@ const hospitalData = {
         "hospitalizados_planta": 175,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "282ec98a856cddd8163367b8221e2d2fa9077975",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 220,
         "fallecimientos": 109,
         "fecha": "2020-04-02",
         "codigo_ine": 24089,
         "hospitalizados_uci": 40,
         "hospitalizados_planta": 379,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1524,7 +1949,7 @@ const hospitalData = {
         "hospitalizados_planta": 129,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1539,7 +1964,7 @@ const hospitalData = {
         "hospitalizados_planta": 358,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1552,9 +1977,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 50,
         "hospitalizados_planta": 231,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1569,7 +1994,7 @@ const hospitalData = {
         "hospitalizados_planta": 31,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1582,24 +2007,24 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 46,
         "hospitalizados_planta": 180,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "df38cce35d94d1ef6644ac014294c8a7922c1536",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 151,
         "fallecimientos": 64,
         "fecha": "2020-04-02",
         "codigo_ine": 5019,
         "hospitalizados_uci": 16,
         "hospitalizados_planta": 161,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1614,7 +2039,7 @@ const hospitalData = {
         "hospitalizados_planta": 39,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1629,7 +2054,7 @@ const hospitalData = {
         "hospitalizados_planta": 317,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1644,7 +2069,7 @@ const hospitalData = {
         "hospitalizados_planta": 154,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1659,7 +2084,7 @@ const hospitalData = {
         "hospitalizados_planta": 101,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1672,15 +2097,15 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 24,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "77e2f6d150dc484260fb4550277616c54f1d0e81",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 56,
         "fallecimientos": 18,
         "fecha": "2020-04-02",
@@ -1689,22 +2114,22 @@ const hospitalData = {
         "hospitalizados_planta": 79,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "7285a44a17e316c24599d567440883de21b43112",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 132,
         "fallecimientos": 59,
         "fecha": "2020-04-01",
         "codigo_ine": 5019,
         "hospitalizados_uci": 17,
         "hospitalizados_planta": 164,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1719,7 +2144,7 @@ const hospitalData = {
         "hospitalizados_planta": 120,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1734,7 +2159,7 @@ const hospitalData = {
         "hospitalizados_planta": 148,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1749,7 +2174,7 @@ const hospitalData = {
         "hospitalizados_planta": 24,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1762,24 +2187,24 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 26,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "0ffe6485d48289e982e10b029d0fa85802dbf4d1",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 182,
         "fallecimientos": 97,
         "fecha": "2020-04-01",
         "codigo_ine": 24089,
         "hospitalizados_uci": 42,
         "hospitalizados_planta": 379,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1794,7 +2219,7 @@ const hospitalData = {
         "hospitalizados_planta": 351,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1807,9 +2232,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 53,
         "hospitalizados_planta": 231,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1822,9 +2247,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 42,
         "hospitalizados_planta": 192,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1839,7 +2264,7 @@ const hospitalData = {
         "hospitalizados_planta": 179,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1854,13 +2279,13 @@ const hospitalData = {
         "hospitalizados_planta": 42,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "8d0b2a5b153b82f470b0cfea2477588d39c37789",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 34,
         "fallecimientos": 11,
         "fecha": "2020-04-01",
@@ -1869,7 +2294,7 @@ const hospitalData = {
         "hospitalizados_planta": 95,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1884,7 +2309,7 @@ const hospitalData = {
         "hospitalizados_planta": 308,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1899,22 +2324,22 @@ const hospitalData = {
         "hospitalizados_planta": 97,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "d87ecd1af9b76351d3c5fea4b4a6e35537d4a1bd",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 111,
         "fallecimientos": 54,
         "fecha": "2020-03-31",
         "codigo_ine": 5019,
         "hospitalizados_uci": 16,
         "hospitalizados_planta": 144,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1929,7 +2354,7 @@ const hospitalData = {
         "hospitalizados_planta": 185,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1944,7 +2369,7 @@ const hospitalData = {
         "hospitalizados_planta": 310,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1957,9 +2382,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 50,
         "hospitalizados_planta": 230,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -1974,13 +2399,13 @@ const hospitalData = {
         "hospitalizados_planta": 43,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b2dd56408ea41ce1df9128da0579f4f7361a35fa",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 26,
         "fallecimientos": 9,
         "fecha": "2020-03-31",
@@ -1989,7 +2414,7 @@ const hospitalData = {
         "hospitalizados_planta": 96,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2004,7 +2429,7 @@ const hospitalData = {
         "hospitalizados_planta": 348,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2017,24 +2442,24 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 22,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "6c57535152698c113a348d239290534b25a843ff",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 150,
         "fallecimientos": 91,
         "fecha": "2020-03-31",
         "codigo_ine": 24089,
         "hospitalizados_uci": 44,
         "hospitalizados_planta": 368,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2049,7 +2474,7 @@ const hospitalData = {
         "hospitalizados_planta": 115,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2064,7 +2489,7 @@ const hospitalData = {
         "hospitalizados_planta": 118,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2079,7 +2504,7 @@ const hospitalData = {
         "hospitalizados_planta": 28,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2092,9 +2517,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 39,
         "hospitalizados_planta": 240,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2109,22 +2534,22 @@ const hospitalData = {
         "hospitalizados_planta": 100,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "321d824883255586f3d090fe6ee2685423f2749f",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 91,
         "fallecimientos": 46,
         "fecha": "2020-03-30",
         "codigo_ine": 5019,
         "hospitalizados_uci": 12,
         "hospitalizados_planta": 133,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2139,7 +2564,7 @@ const hospitalData = {
         "hospitalizados_planta": 112,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2154,7 +2579,7 @@ const hospitalData = {
         "hospitalizados_planta": 23,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2169,7 +2594,7 @@ const hospitalData = {
         "hospitalizados_planta": 99,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2184,7 +2609,7 @@ const hospitalData = {
         "hospitalizados_planta": 196,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2199,7 +2624,7 @@ const hospitalData = {
         "hospitalizados_planta": 112,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2214,7 +2639,7 @@ const hospitalData = {
         "hospitalizados_planta": 319,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2229,7 +2654,7 @@ const hospitalData = {
         "hospitalizados_planta": 312,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2242,9 +2667,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 44,
         "hospitalizados_planta": 216,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2257,9 +2682,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 22,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2274,28 +2699,28 @@ const hospitalData = {
         "hospitalizados_planta": 45,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "39c860f3c3cc5771b9c183ec9e0425347e28403f",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 118,
         "fallecimientos": 81,
         "fecha": "2020-03-30",
         "codigo_ine": 24089,
         "hospitalizados_uci": 43,
         "hospitalizados_planta": 374,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "667c8903023781f24f89ad3e2b72ed369fdae040",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 21,
         "fallecimientos": 8,
         "fecha": "2020-03-30",
@@ -2304,7 +2729,7 @@ const hospitalData = {
         "hospitalizados_planta": 87,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2317,24 +2742,24 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 37,
         "hospitalizados_planta": 226,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "7cab185b9a0c5dfed7d2b5f97feac1169468c025",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 82,
         "fallecimientos": 41,
         "fecha": "2020-03-29",
         "codigo_ine": 5019,
         "hospitalizados_uci": 12,
         "hospitalizados_planta": 133,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2347,24 +2772,24 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 22,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "ea15bc1f2469fd9c0531e07f3879d03af74b5ef7",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 103,
         "fallecimientos": 72,
         "fecha": "2020-03-29",
         "codigo_ine": 24089,
         "hospitalizados_uci": 34,
         "hospitalizados_planta": 366,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2379,7 +2804,7 @@ const hospitalData = {
         "hospitalizados_planta": 102,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2394,7 +2819,7 @@ const hospitalData = {
         "hospitalizados_planta": 292,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2409,7 +2834,7 @@ const hospitalData = {
         "hospitalizados_planta": 18,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2422,9 +2847,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 37,
         "hospitalizados_planta": 205,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2439,7 +2864,7 @@ const hospitalData = {
         "hospitalizados_planta": 204,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2454,13 +2879,13 @@ const hospitalData = {
         "hospitalizados_planta": 48,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "7ec07b2e33f67113f49832b0a2b1933443967d60",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 15,
         "fallecimientos": 5,
         "fecha": "2020-03-29",
@@ -2469,7 +2894,7 @@ const hospitalData = {
         "hospitalizados_planta": 83,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2484,7 +2909,7 @@ const hospitalData = {
         "hospitalizados_planta": 120,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2499,7 +2924,7 @@ const hospitalData = {
         "hospitalizados_planta": 333,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2512,9 +2937,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 42,
         "hospitalizados_planta": 211,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2529,7 +2954,7 @@ const hospitalData = {
         "hospitalizados_planta": 96,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2542,15 +2967,15 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 21,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "26ec102813c48573df5100af88c17b1c80b82e03",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 14,
         "fallecimientos": 4,
         "fecha": "2020-03-28",
@@ -2559,7 +2984,7 @@ const hospitalData = {
         "hospitalizados_planta": 70,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2574,7 +2999,7 @@ const hospitalData = {
         "hospitalizados_planta": 82,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2589,7 +3014,7 @@ const hospitalData = {
         "hospitalizados_planta": 297,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2604,7 +3029,7 @@ const hospitalData = {
         "hospitalizados_planta": 105,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2617,9 +3042,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 39,
         "hospitalizados_planta": 195,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2634,7 +3059,7 @@ const hospitalData = {
         "hospitalizados_planta": 191,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2649,7 +3074,7 @@ const hospitalData = {
         "hospitalizados_planta": 48,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2664,7 +3089,7 @@ const hospitalData = {
         "hospitalizados_planta": 341,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2679,7 +3104,7 @@ const hospitalData = {
         "hospitalizados_planta": 19,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2694,37 +3119,37 @@ const hospitalData = {
         "hospitalizados_planta": 87,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b8822c2ba052e5b859825e1dcd69949b7d5eefbe",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 78,
         "fallecimientos": 38,
         "fecha": "2020-03-28",
         "codigo_ine": 5019,
         "hospitalizados_uci": 11,
         "hospitalizados_planta": 128,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "4e4821f90873f317411170380e57885daeaa689b",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 85,
         "fallecimientos": 63,
         "fecha": "2020-03-28",
         "codigo_ine": 24089,
         "hospitalizados_uci": 32,
         "hospitalizados_planta": 337,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2737,24 +3162,24 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 34,
         "hospitalizados_planta": 209,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "99aa197dafc70f9479a5631b054c5bfec4bddebc",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 63,
         "fallecimientos": 33,
         "fecha": "2020-03-27",
         "codigo_ine": 5019,
         "hospitalizados_uci": 9,
         "hospitalizados_planta": 137,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2769,22 +3194,22 @@ const hospitalData = {
         "hospitalizados_planta": 181,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c5cdeb2e0dd0bc224b39caf90472d4373237488b",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 66,
         "fallecimientos": 53,
         "fecha": "2020-03-27",
         "codigo_ine": 24089,
         "hospitalizados_uci": 26,
         "hospitalizados_planta": 300,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2799,7 +3224,7 @@ const hospitalData = {
         "hospitalizados_planta": 73,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2814,7 +3239,7 @@ const hospitalData = {
         "hospitalizados_planta": 91,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2829,7 +3254,7 @@ const hospitalData = {
         "hospitalizados_planta": 19,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2844,7 +3269,7 @@ const hospitalData = {
         "hospitalizados_planta": 59,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2859,13 +3284,13 @@ const hospitalData = {
         "hospitalizados_planta": 42,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "88e247e573fb05fee3ff49a8fabf0c950fbad4f6",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 2,
         "fecha": "2020-03-27",
@@ -2874,7 +3299,7 @@ const hospitalData = {
         "hospitalizados_planta": 68,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2889,7 +3314,7 @@ const hospitalData = {
         "hospitalizados_planta": 273,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2904,7 +3329,7 @@ const hospitalData = {
         "hospitalizados_planta": 185,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2917,9 +3342,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 33,
         "hospitalizados_planta": 195,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2932,9 +3357,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 20,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2947,9 +3372,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 27,
         "hospitalizados_planta": 171,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2962,9 +3387,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 27,
         "hospitalizados_planta": 176,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2979,7 +3404,7 @@ const hospitalData = {
         "hospitalizados_planta": 50,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -2994,28 +3419,28 @@ const hospitalData = {
         "hospitalizados_planta": 36,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c90b1ac90d37369453dc52f61f07f015d3541a4c",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 46,
         "fallecimientos": 44,
         "fecha": "2020-03-26",
         "codigo_ine": 24089,
         "hospitalizados_uci": 25,
         "hospitalizados_planta": 241,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "119af175ed3cb8ca8f281e0deb0021d42baff293",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 2,
         "fallecimientos": 2,
         "fecha": "2020-03-26",
@@ -3024,7 +3449,7 @@ const hospitalData = {
         "hospitalizados_planta": 57,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3039,22 +3464,22 @@ const hospitalData = {
         "hospitalizados_planta": 68,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "2badd6eb2980efae223d9e944fd15a630e5bda02",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 53,
         "fallecimientos": 27,
         "fecha": "2020-03-26",
         "codigo_ine": 5019,
         "hospitalizados_uci": 7,
         "hospitalizados_planta": 82,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3069,7 +3494,7 @@ const hospitalData = {
         "hospitalizados_planta": 170,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3082,9 +3507,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 21,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3099,7 +3524,7 @@ const hospitalData = {
         "hospitalizados_planta": 245,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3114,7 +3539,7 @@ const hospitalData = {
         "hospitalizados_planta": 181,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3129,7 +3554,7 @@ const hospitalData = {
         "hospitalizados_planta": 80,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3142,9 +3567,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 21,
         "hospitalizados_planta": 139,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3159,7 +3584,7 @@ const hospitalData = {
         "hospitalizados_planta": 17,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3174,7 +3599,7 @@ const hospitalData = {
         "hospitalizados_planta": 30,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3189,7 +3614,7 @@ const hospitalData = {
         "hospitalizados_planta": 56,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3204,7 +3629,7 @@ const hospitalData = {
         "hospitalizados_planta": 90,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3217,9 +3642,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 20,
         "hospitalizados_planta": 164,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3234,28 +3659,28 @@ const hospitalData = {
         "hospitalizados_planta": 149,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "cc9fadaf365cdceefdded2688507ba0f51acaaf7",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 30,
         "fallecimientos": 31,
         "fecha": "2020-03-25",
         "codigo_ine": 24089,
         "hospitalizados_uci": 21,
         "hospitalizados_planta": 225,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "df58bc82d357a0c1e8cd2d87dc84811719503664",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 1,
         "fallecimientos": 0,
         "fecha": "2020-03-25",
@@ -3264,7 +3689,7 @@ const hospitalData = {
         "hospitalizados_planta": 43,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3279,7 +3704,7 @@ const hospitalData = {
         "hospitalizados_planta": 218,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3294,7 +3719,7 @@ const hospitalData = {
         "hospitalizados_planta": 61,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3309,22 +3734,22 @@ const hospitalData = {
         "hospitalizados_planta": 12,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "6a0db51882e1f722e850f5146edf71be330ad020",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 36,
         "fallecimientos": 21,
         "fecha": "2020-03-25",
         "codigo_ine": 5019,
         "hospitalizados_uci": 7,
         "hospitalizados_planta": 88,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3337,9 +3762,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 14,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3352,9 +3777,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 20,
         "hospitalizados_planta": 114,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3369,28 +3794,28 @@ const hospitalData = {
         "hospitalizados_planta": 49,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "969689e8c8001a6b5f460be1ee5e53e593e411f0",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 20,
         "fallecimientos": 24,
         "fecha": "2020-03-24",
         "codigo_ine": 24089,
         "hospitalizados_uci": 14,
         "hospitalizados_planta": 164,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "bd81ac52c236cc7c7bb29083331a203119369c43",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 1,
         "fallecimientos": 0,
         "fecha": "2020-03-24",
@@ -3399,7 +3824,7 @@ const hospitalData = {
         "hospitalizados_planta": 23,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3414,7 +3839,7 @@ const hospitalData = {
         "hospitalizados_planta": 10,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3429,7 +3854,7 @@ const hospitalData = {
         "hospitalizados_planta": 28,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3444,7 +3869,7 @@ const hospitalData = {
         "hospitalizados_planta": 42,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3459,7 +3884,7 @@ const hospitalData = {
         "hospitalizados_planta": 81,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3474,22 +3899,22 @@ const hospitalData = {
         "hospitalizados_planta": 53,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "dfe9db1c81cfd83cf7efd85474a2293fe2f5052b",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 23,
         "fallecimientos": 15,
         "fecha": "2020-03-24",
         "codigo_ine": 5019,
         "hospitalizados_uci": 5,
         "hospitalizados_planta": 89,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3504,7 +3929,7 @@ const hospitalData = {
         "hospitalizados_planta": 123,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3517,9 +3942,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 15,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3534,7 +3959,7 @@ const hospitalData = {
         "hospitalizados_planta": 194,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3547,9 +3972,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 18,
         "hospitalizados_planta": 78,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3562,9 +3987,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 16,
         "hospitalizados_planta": 125,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3579,22 +4004,22 @@ const hospitalData = {
         "hospitalizados_planta": 49,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "dd069432109a184540d4803a6097378855a815ce",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 17,
         "fallecimientos": 10,
         "fecha": "2020-03-23",
         "codigo_ine": 5019,
         "hospitalizados_uci": 4,
         "hospitalizados_planta": 83,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3609,7 +4034,7 @@ const hospitalData = {
         "hospitalizados_planta": 43,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3624,7 +4049,7 @@ const hospitalData = {
         "hospitalizados_planta": 105,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3637,9 +4062,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 11,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3654,7 +4079,7 @@ const hospitalData = {
         "hospitalizados_planta": 182,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3669,7 +4094,7 @@ const hospitalData = {
         "hospitalizados_planta": 72,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3684,28 +4109,28 @@ const hospitalData = {
         "hospitalizados_planta": 25,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "4d9f69cba501e252c751303fc638239d67a3a028",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 16,
         "fallecimientos": 20,
         "fecha": "2020-03-23",
         "codigo_ine": 24089,
         "hospitalizados_uci": 12,
         "hospitalizados_planta": 135,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "5e94d04e5d17b32cf8ce9a12c4f00f8da218d7ee",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-23",
@@ -3714,7 +4139,7 @@ const hospitalData = {
         "hospitalizados_planta": 16,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3729,7 +4154,7 @@ const hospitalData = {
         "hospitalizados_planta": 49,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3744,7 +4169,7 @@ const hospitalData = {
         "hospitalizados_planta": 37,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3757,9 +4182,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 15,
         "hospitalizados_planta": 62,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3774,7 +4199,7 @@ const hospitalData = {
         "hospitalizados_planta": 9,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3787,24 +4212,24 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 12,
         "hospitalizados_planta": 91,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "897837181c6d950601ad3a26c3f5da9a797a6fd1",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 16,
         "fallecimientos": 9,
         "fecha": "2020-03-22",
         "codigo_ine": 5019,
         "hospitalizados_uci": 4,
         "hospitalizados_planta": 59,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3819,7 +4244,7 @@ const hospitalData = {
         "hospitalizados_planta": 95,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3834,7 +4259,7 @@ const hospitalData = {
         "hospitalizados_planta": 39,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3849,22 +4274,22 @@ const hospitalData = {
         "hospitalizados_planta": 6,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "4c09179960b7d0908aaf4676cbed640f6527dfcd",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 10,
         "fallecimientos": 14,
         "fecha": "2020-03-22",
         "codigo_ine": 24089,
         "hospitalizados_uci": 10,
         "hospitalizados_planta": 93,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3879,7 +4304,7 @@ const hospitalData = {
         "hospitalizados_planta": 30,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3894,7 +4319,7 @@ const hospitalData = {
         "hospitalizados_planta": 147,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3909,7 +4334,7 @@ const hospitalData = {
         "hospitalizados_planta": 79,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3922,9 +4347,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 14,
         "hospitalizados_planta": 48,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3937,9 +4362,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 10,
         "hospitalizados_planta": 65,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3952,9 +4377,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 10,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3969,13 +4394,13 @@ const hospitalData = {
         "hospitalizados_planta": 18,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "aa1827fd891c32914d71d3cc641885b48762e72a",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-22",
@@ -3984,7 +4409,7 @@ const hospitalData = {
         "hospitalizados_planta": 13,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -3999,7 +4424,7 @@ const hospitalData = {
         "hospitalizados_planta": 38,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4014,7 +4439,7 @@ const hospitalData = {
         "hospitalizados_planta": 84,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4027,9 +4452,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 7,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4044,7 +4469,7 @@ const hospitalData = {
         "hospitalizados_planta": 17,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4059,7 +4484,7 @@ const hospitalData = {
         "hospitalizados_planta": 25,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4074,28 +4499,28 @@ const hospitalData = {
         "hospitalizados_planta": 4,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "0af7b71f9fee6dda574e66179fdf6c1dd44b2ac2",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 7,
         "fecha": "2020-03-21",
         "codigo_ine": 24089,
         "hospitalizados_uci": 9,
         "hospitalizados_planta": 67,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b1d8fed6591a3635a5d4f784493c6c0a18cbace3",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-21",
@@ -4104,7 +4529,7 @@ const hospitalData = {
         "hospitalizados_planta": 11,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4119,7 +4544,7 @@ const hospitalData = {
         "hospitalizados_planta": 46,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4134,7 +4559,7 @@ const hospitalData = {
         "hospitalizados_planta": 39,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4147,9 +4572,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 8,
         "hospitalizados_planta": 56,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4164,22 +4589,22 @@ const hospitalData = {
         "hospitalizados_planta": 35,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c6e40f0955c53358c5e0d1f475dd46e565866807",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 14,
         "fallecimientos": 7,
         "fecha": "2020-03-21",
         "codigo_ine": 5019,
         "hospitalizados_uci": 4,
         "hospitalizados_planta": 49,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4194,7 +4619,7 @@ const hospitalData = {
         "hospitalizados_planta": 121,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4207,30 +4632,30 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 13,
         "hospitalizados_planta": 42,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "e9c87b72ae7850670e17fd6e0b69dbc2c6ee1955",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 4,
         "fallecimientos": 4,
         "fecha": "2020-03-20",
         "codigo_ine": 5019,
         "hospitalizados_uci": 3,
         "hospitalizados_planta": 40,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "08e6602cc07a5c3a12c824f725e9087ffa8ded5f",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-20",
@@ -4239,7 +4664,7 @@ const hospitalData = {
         "hospitalizados_planta": 10,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4254,7 +4679,7 @@ const hospitalData = {
         "hospitalizados_planta": 29,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4267,9 +4692,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 9,
         "hospitalizados_planta": 41,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4284,7 +4709,7 @@ const hospitalData = {
         "hospitalizados_planta": 71,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4297,9 +4722,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 7,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4314,7 +4739,7 @@ const hospitalData = {
         "hospitalizados_planta": 13,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4329,7 +4754,7 @@ const hospitalData = {
         "hospitalizados_planta": 19,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4344,7 +4769,7 @@ const hospitalData = {
         "hospitalizados_planta": 46,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4359,7 +4784,7 @@ const hospitalData = {
         "hospitalizados_planta": 2,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4372,9 +4797,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 8,
         "hospitalizados_planta": 33,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4389,22 +4814,22 @@ const hospitalData = {
         "hospitalizados_planta": 32,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "43bb327e7f66b433b19749163869348f50aef2f2",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 5,
         "fecha": "2020-03-20",
         "codigo_ine": 24089,
         "hospitalizados_uci": 6,
         "hospitalizados_planta": 53,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4419,7 +4844,7 @@ const hospitalData = {
         "hospitalizados_planta": 94,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4434,7 +4859,7 @@ const hospitalData = {
         "hospitalizados_planta": 7,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4449,7 +4874,7 @@ const hospitalData = {
         "hospitalizados_planta": 61,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4464,7 +4889,7 @@ const hospitalData = {
         "hospitalizados_planta": 50,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4477,15 +4902,15 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 6,
         "hospitalizados_planta": 24,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "a3c2cfe462126fd34c7a9250bf92d173a3294894",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-19",
@@ -4494,22 +4919,22 @@ const hospitalData = {
         "hospitalizados_planta": 8,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "882172a3fa4dcc580b1bc888607ff413eccb3c2e",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 5,
         "fecha": "2020-03-19",
         "codigo_ine": 24089,
         "hospitalizados_uci": 7,
         "hospitalizados_planta": 36,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4524,7 +4949,7 @@ const hospitalData = {
         "hospitalizados_planta": 71,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4539,22 +4964,22 @@ const hospitalData = {
         "hospitalizados_planta": 23,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "961afb32f2aa9e69e802c9221f9aea716a145140",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 2,
         "fallecimientos": 2,
         "fecha": "2020-03-19",
         "codigo_ine": 5019,
         "hospitalizados_uci": 1,
         "hospitalizados_planta": 25,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4567,9 +4992,9 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 4,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4584,7 +5009,7 @@ const hospitalData = {
         "hospitalizados_planta": 15,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4597,9 +5022,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 8,
         "hospitalizados_planta": 29,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4614,7 +5039,7 @@ const hospitalData = {
         "hospitalizados_planta": 2,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4629,7 +5054,7 @@ const hospitalData = {
         "hospitalizados_planta": 15,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4644,7 +5069,7 @@ const hospitalData = {
         "hospitalizados_planta": 8,
         "hospital": "Hospital Santos Reyes"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4659,7 +5084,7 @@ const hospitalData = {
         "hospitalizados_planta": 53,
         "hospital": "Complejo Asistencial Universitario de Burgos"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4674,7 +5099,7 @@ const hospitalData = {
         "hospitalizados_planta": 7,
         "hospital": "Complejo Asistencial Universitario de Palencia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4689,28 +5114,28 @@ const hospitalData = {
         "hospitalizados_planta": 34,
         "hospital": "Complejo Asistencial de Segovia"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "7d945f1adb0cb26120395b455f67d9950e5da001",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 1,
         "fallecimientos": 1,
         "fecha": "2020-03-18",
         "codigo_ine": 5019,
         "hospitalizados_uci": 1,
         "hospitalizados_planta": 24,
-        "hospital": "Complejo Asistencial de \u00c1vila"
+        "hospital": "Complejo Asistencial de Ávila"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "d73f2249837f1bbe253ae5c1df684a967191acba",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-18",
@@ -4719,7 +5144,7 @@ const hospitalData = {
         "hospitalizados_planta": 5,
         "hospital": "Hospital El Bierzo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4734,7 +5159,7 @@ const hospitalData = {
         "hospitalizados_planta": 44,
         "hospital": "Complejo Asistencial Universitario de Salamanca"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4749,7 +5174,7 @@ const hospitalData = {
         "hospitalizados_planta": 15,
         "hospital": "Complejo Asistencial de Soria"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4764,7 +5189,7 @@ const hospitalData = {
         "hospitalizados_planta": 2,
         "hospital": "Hospital de Medina del Campo"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4777,24 +5202,24 @@ const hospitalData = {
         "codigo_ine": 9059,
         "hospitalizados_uci": 0,
         "hospitalizados_planta": 6,
-        "hospital": "Hospital Santiago Ap\u00f3stol"
+        "hospital": "Hospital Santiago Apóstol"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "1c9835a2208cc4cf37d1d0a56cd31c035305e6d1",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 4,
         "fecha": "2020-03-18",
         "codigo_ine": 24089,
         "hospitalizados_uci": 6,
         "hospitalizados_planta": 32,
-        "hospital": "Complejo Asistencial Universitario de Le\u00f3n"
+        "hospital": "Complejo Asistencial Universitario de León"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4807,9 +5232,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 5,
         "hospitalizados_planta": 20,
-        "hospital": "Hospital Cl\u00ednico Universitario de Valladolid"
+        "hospital": "Hospital Clínico Universitario de Valladolid"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4822,9 +5247,9 @@ const hospitalData = {
         "codigo_ine": 47186,
         "hospitalizados_uci": 3,
         "hospitalizados_planta": 16,
-        "hospital": "Hospital Universitario R\u00edo Hortega"
+        "hospital": "Hospital Universitario Río Hortega"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     },
     {
       "datasetid": "situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon@jcyl",
@@ -4839,60 +5264,65 @@ const hospitalData = {
         "hospitalizados_planta": 15,
         "hospital": "Complejo Asistencial de Zamora"
       },
-      "record_timestamp": "2020-04-09T10:32:40.389000+00:00"
+      "record_timestamp": "2020-04-11T11:08:51.333000+00:00"
     }
   ],
   "facet_groups": [
     {
       "facets": [
         {
-          "count": 69,
+          "count": 75,
           "path": "Burgos",
           "state": "displayed",
           "name": "Burgos"
         },
         {
-          "count": 69,
+          "count": 75,
           "path": "Valladolid",
           "state": "displayed",
           "name": "Valladolid"
         },
         {
-          "count": 46,
-          "path": "Le\u00f3n",
+          "count": 50,
+          "path": "León",
           "state": "displayed",
-          "name": "Le\u00f3n"
+          "name": "León"
         },
         {
-          "count": 23,
+          "count": 25,
           "path": "Palencia",
           "state": "displayed",
           "name": "Palencia"
         },
         {
-          "count": 23,
+          "count": 25,
           "path": "Salamanca",
           "state": "displayed",
           "name": "Salamanca"
         },
         {
-          "count": 23,
+          "count": 25,
           "path": "Segovia",
           "state": "displayed",
           "name": "Segovia"
         },
-        { "count": 23, "path": "Soria", "state": "displayed", "name": "Soria" },
         {
-          "count": 23,
+          "count": 25,
+          "path": "Soria",
+          "state": "displayed",
+          "name": "Soria"
+        },
+        {
+          "count": 25,
           "path": "Zamora",
           "state": "displayed",
           "name": "Zamora"
         },
         {
-          "count": 23,
-          "path": "\u00c1vila",
+          "count": 25,
+          "path": "Ávila",
           "state": "displayed",
-          "name": "\u00c1vila"
+          "name": "Ávila"
         }
       ],
       "name": "provincia"

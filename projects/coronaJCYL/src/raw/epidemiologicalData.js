@@ -1,45 +1,520 @@
-const epidemiologicalData = {
-  "nhits": 252,
+const epidemiologicalData =
+{
+  "nhits": 270,
   "parameters": {
-    "dataset": ["situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl"],
+    "dataset": [
+      "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl"
+    ],
     "timezone": "UTC",
     "rows": 10000,
-    "sort": ["fecha"],
+    "sort": [
+      "fecha"
+    ],
     "format": "json",
-    "facet": ["provincia"]
+    "facet": [
+      "provincia"
+    ]
   },
   "records": [
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "574ed38e99dae07ca091bcb4e0d05e4b094cdf47",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 492,
+        "fallecimientos": 136,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 44,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1170,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "bccee21accbfa173ababb7dfeba2050f810b8819",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 171,
+        "fallecimientos": 46,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 13,
+        "codigo_ine": 34120,
+        "casos_confirmados": 605,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "636a76a87b5ccb03301c98b628fbc0bb9ff7006a",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 579,
+        "fallecimientos": 244,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 64,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2115,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "10e20fb2324ba5186157f3779aed838156817898",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 804,
+        "fallecimientos": 195,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 138,
+        "codigo_ine": 47186,
+        "casos_confirmados": 2123,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "530d203ac2773df17912835603ab0e8e077387dd",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 347,
+        "fallecimientos": 94,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 38,
+        "codigo_ine": 5019,
+        "casos_confirmados": 897,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "1540108d37016709529645cc0bd9c8c4c04f263c",
+      "fields": {
+        "provincia": "León",
+        "altas": 751,
+        "fallecimientos": 236,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 25,
+        "codigo_ine": 24089,
+        "casos_confirmados": 1538,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "89ef3784ad424cfd77409766648b06e4863069d0",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 490,
+        "fallecimientos": 139,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 88,
+        "codigo_ine": 40004,
+        "casos_confirmados": 1760,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "6eedf6fb7e71ee461fa66fbb7db327291b406662",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 228,
+        "fallecimientos": 80,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 29,
+        "codigo_ine": 42173,
+        "casos_confirmados": 927,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "2438824f19826613ec502340299b2d430b280fa4",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 148,
+        "fallecimientos": 51,
+        "fecha": "2020-04-11",
+        "nuevos_positivos": 2,
+        "codigo_ine": 49275,
+        "casos_confirmados": 408,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "5f2a72d6ecdfccd1c9cc09cdcd296d02f0a0e86e",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 325,
+        "fallecimientos": 93,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 34,
+        "codigo_ine": 5019,
+        "casos_confirmados": 859,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "84b6de3ee3fc17fbc46cf07faf2ab136258d7657",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 162,
+        "fallecimientos": 44,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 47,
+        "codigo_ine": 34120,
+        "casos_confirmados": 592,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "0ddcaccc5fa604cd9fdbed90b0aa4c11ce5f3cd4",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 542,
+        "fallecimientos": 236,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 95,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2051,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "b66d93545e1ac18954a0feafff15a92c84379142",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 470,
+        "fallecimientos": 132,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 101,
+        "codigo_ine": 40004,
+        "casos_confirmados": 1672,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "ff0b520a9916eb97af702fd6bff441af560ca75e",
+      "fields": {
+        "provincia": "León",
+        "altas": 710,
+        "fallecimientos": 230,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 58,
+        "codigo_ine": 24089,
+        "casos_confirmados": 1513,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "90965d8e5fb8bda514a14619a0c25e4afcd6d4d8",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 724,
+        "fallecimientos": 184,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 139,
+        "codigo_ine": 47186,
+        "casos_confirmados": 1985,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "0911ad903a369ef82d1f8981433a9f310cb4fa04",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 470,
+        "fallecimientos": 132,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 46,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1126,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "87731e621ea7e3504bbb2180118b52fc351cb8e5",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 219,
+        "fallecimientos": 80,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 26,
+        "codigo_ine": 42173,
+        "casos_confirmados": 898,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "665aa0e65dc354d9442156ed027773a0d9702400",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 135,
+        "fallecimientos": 49,
+        "fecha": "2020-04-10",
+        "nuevos_positivos": 38,
+        "codigo_ine": 49275,
+        "casos_confirmados": 406,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "aa87b64d350ee130112be6179e57e3c1f51d543b",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 297,
         "fallecimientos": 90,
         "fecha": "2020-04-09",
         "nuevos_positivos": 32,
         "codigo_ine": 5019,
         "casos_confirmados": 825,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "25dc0208d49fa4274144666be00cf1c097d095e4",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 666,
         "fallecimientos": 218,
         "fecha": "2020-04-09",
         "nuevos_positivos": 57,
         "codigo_ine": 24089,
         "casos_confirmados": 1455,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -52,10 +527,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 160,
         "codigo_ine": 47186,
         "casos_confirmados": 1846,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -68,10 +552,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 21,
         "codigo_ine": 34120,
         "casos_confirmados": 545,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -84,10 +577,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 41,
         "codigo_ine": 37274,
         "casos_confirmados": 1956,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -100,10 +602,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 91,
         "codigo_ine": 40004,
         "casos_confirmados": 1571,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -116,10 +627,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 23,
         "codigo_ine": 42173,
         "casos_confirmados": 872,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -132,10 +652,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 8,
         "codigo_ine": 49275,
         "casos_confirmados": 368,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -148,26 +677,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 27,
         "codigo_ine": 9059,
         "casos_confirmados": 1080,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "808e3e047f82c9a651f7dc0a99066839b85a177a",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 620,
         "fallecimientos": 210,
         "fecha": "2020-04-08",
         "nuevos_positivos": 54,
         "codigo_ine": 24089,
         "casos_confirmados": 1398,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -180,10 +727,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 18,
         "codigo_ine": 49275,
         "casos_confirmados": 360,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -196,10 +752,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 29,
         "codigo_ine": 9059,
         "casos_confirmados": 1053,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -212,10 +777,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 108,
         "codigo_ine": 37274,
         "casos_confirmados": 1915,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -228,26 +802,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 131,
         "codigo_ine": 40004,
         "casos_confirmados": 1480,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "7ceb1877296db2bd6633967def4dc85ef9d7f0d9",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 272,
         "fallecimientos": 85,
         "fecha": "2020-04-08",
         "nuevos_positivos": 27,
         "codigo_ine": 5019,
         "casos_confirmados": 793,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -260,10 +852,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 14,
         "codigo_ine": 34120,
         "casos_confirmados": 524,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -276,10 +877,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 12,
         "codigo_ine": 42173,
         "casos_confirmados": 849,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -292,10 +902,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 84,
         "codigo_ine": 47186,
         "casos_confirmados": 1686,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -308,10 +927,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 24,
         "codigo_ine": 34120,
         "casos_confirmados": 510,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -324,10 +952,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 97,
         "codigo_ine": 40004,
         "casos_confirmados": 1349,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -340,10 +977,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 157,
         "codigo_ine": 47186,
         "casos_confirmados": 1602,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -356,10 +1002,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 21,
         "codigo_ine": 9059,
         "casos_confirmados": 1024,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -372,10 +1027,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 88,
         "codigo_ine": 37274,
         "casos_confirmados": 1807,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -388,42 +1052,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 13,
         "codigo_ine": 42173,
         "casos_confirmados": 837,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c77af782b8a65423d32ea33b619515269f6133a1",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 253,
         "fallecimientos": 83,
         "fecha": "2020-04-07",
         "nuevos_positivos": 34,
         "codigo_ine": 5019,
         "casos_confirmados": 766,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "0959b496e96bb216ecf776ef89c44c78af7907fc",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 564,
         "fallecimientos": 196,
         "fecha": "2020-04-07",
         "nuevos_positivos": 29,
         "codigo_ine": 24089,
         "casos_confirmados": 1344,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -436,10 +1127,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 2,
         "codigo_ine": 49275,
         "casos_confirmados": 342,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -452,10 +1152,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 18,
         "codigo_ine": 9059,
         "casos_confirmados": 1003,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -468,10 +1177,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 14,
         "codigo_ine": 34120,
         "casos_confirmados": 486,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -484,10 +1202,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 42,
         "codigo_ine": 47186,
         "casos_confirmados": 1445,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -500,42 +1227,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 49275,
         "casos_confirmados": 340,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "8dd3677e2f208ebb41a0d61955a5e907162ae4da",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 225,
         "fallecimientos": 79,
         "fecha": "2020-04-06",
         "nuevos_positivos": 53,
         "codigo_ine": 5019,
         "casos_confirmados": 732,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "1a72d500d839cdf6ad8e27689835fc5f81063b81",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 498,
         "fallecimientos": 186,
         "fecha": "2020-04-06",
         "nuevos_positivos": 54,
         "codigo_ine": 24089,
         "casos_confirmados": 1315,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -548,10 +1302,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 60,
         "codigo_ine": 37274,
         "casos_confirmados": 1719,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -564,10 +1327,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 104,
         "codigo_ine": 40004,
         "casos_confirmados": 1252,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -580,26 +1352,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 21,
         "codigo_ine": 42173,
         "casos_confirmados": 824,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "1a8086a4514fdf9f91e31d6bd481c0fffa4359d5",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 214,
         "fallecimientos": 73,
         "fecha": "2020-04-05",
         "nuevos_positivos": 41,
         "codigo_ine": 5019,
         "casos_confirmados": 679,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -612,10 +1402,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 21,
         "codigo_ine": 9059,
         "casos_confirmados": 985,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -628,10 +1427,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 20,
         "codigo_ine": 34120,
         "casos_confirmados": 472,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -644,26 +1452,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 16,
         "codigo_ine": 49275,
         "casos_confirmados": 339,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "6c2fe7df222578d1eb1cf09842e45ca9f9fed9b5",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 452,
         "fallecimientos": 175,
         "fecha": "2020-04-05",
         "nuevos_positivos": 57,
         "codigo_ine": 24089,
         "casos_confirmados": 1261,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -676,10 +1502,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 80,
         "codigo_ine": 37274,
         "casos_confirmados": 1659,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -692,10 +1527,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 97,
         "codigo_ine": 40004,
         "casos_confirmados": 1148,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -708,10 +1552,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 34,
         "codigo_ine": 42173,
         "casos_confirmados": 803,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -724,26 +1577,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 51,
         "codigo_ine": 47186,
         "casos_confirmados": 1403,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "fe262199229e182fa9ad757124cf18a089d88953",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 398,
         "fallecimientos": 159,
         "fecha": "2020-04-04",
         "nuevos_positivos": 79,
         "codigo_ine": 24089,
         "casos_confirmados": 1204,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -756,10 +1627,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 25,
         "codigo_ine": 34120,
         "casos_confirmados": 452,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -772,10 +1652,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 62,
         "codigo_ine": 47186,
         "casos_confirmados": 1352,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -788,10 +1677,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 90,
         "codigo_ine": 37274,
         "casos_confirmados": 1579,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -804,26 +1702,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 27,
         "codigo_ine": 49275,
         "casos_confirmados": 323,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b1b28be519aeabddcbcf45179e402551ca9acaa1",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 205,
         "fallecimientos": 69,
         "fecha": "2020-04-04",
         "nuevos_positivos": 48,
         "codigo_ine": 5019,
         "casos_confirmados": 638,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -836,10 +1752,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 24,
         "codigo_ine": 9059,
         "casos_confirmados": 964,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -852,10 +1777,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 85,
         "codigo_ine": 40004,
         "casos_confirmados": 1051,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -868,26 +1802,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 17,
         "codigo_ine": 42173,
         "casos_confirmados": 769,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "f15c164bee39c35d6a7ed9fd1ef74ec87e8b1da3",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 170,
         "fallecimientos": 66,
         "fecha": "2020-04-03",
         "nuevos_positivos": 30,
         "codigo_ine": 5019,
         "casos_confirmados": 590,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -900,10 +1852,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 45,
         "codigo_ine": 9059,
         "casos_confirmados": 940,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -916,10 +1877,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 76,
         "codigo_ine": 37274,
         "casos_confirmados": 1489,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -932,10 +1902,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 102,
         "codigo_ine": 47186,
         "casos_confirmados": 1290,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -948,10 +1927,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 44,
         "codigo_ine": 34120,
         "casos_confirmados": 427,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -964,26 +1952,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 80,
         "codigo_ine": 40004,
         "casos_confirmados": 966,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "493f5aee4d53d67a794fef3f3e1a834c39ccec59",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 339,
         "fallecimientos": 144,
         "fecha": "2020-04-03",
         "nuevos_positivos": 59,
         "codigo_ine": 24089,
         "casos_confirmados": 1125,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -996,10 +2002,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 66,
         "codigo_ine": 42173,
         "casos_confirmados": 752,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1012,10 +2027,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 18,
         "codigo_ine": 49275,
         "casos_confirmados": 296,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1028,10 +2052,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 27,
         "codigo_ine": 42173,
         "casos_confirmados": 686,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1044,10 +2077,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 52,
         "codigo_ine": 49275,
         "casos_confirmados": 278,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1060,26 +2102,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 79,
         "codigo_ine": 47186,
         "casos_confirmados": 1188,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "fa8a9755daf2a0e7f2ca40e4e2cd8fc3ec2ee137",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 151,
         "fallecimientos": 64,
         "fecha": "2020-04-02",
         "nuevos_positivos": 48,
         "codigo_ine": 5019,
         "casos_confirmados": 560,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1092,26 +2152,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 47,
         "codigo_ine": 9059,
         "casos_confirmados": 895,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "44aaf4fd527ced4b05ffcd42e8e4aeffe2131c1b",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 276,
         "fallecimientos": 127,
         "fecha": "2020-04-02",
         "nuevos_positivos": 59,
         "codigo_ine": 24089,
         "casos_confirmados": 1066,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1124,10 +2202,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 24,
         "codigo_ine": 34120,
         "casos_confirmados": 383,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1140,10 +2227,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 97,
         "codigo_ine": 37274,
         "casos_confirmados": 1413,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1156,42 +2252,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 75,
         "codigo_ine": 40004,
         "casos_confirmados": 886,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "f44eb7726ad79e254d4600122ca5c83cb39754f9",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 132,
         "fallecimientos": 59,
         "fecha": "2020-04-01",
         "nuevos_positivos": 45,
         "codigo_ine": 5019,
         "casos_confirmados": 512,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "9cfcc5aa5ae7b282a9f31a720b8fa0a0bc75019a",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 216,
         "fallecimientos": 108,
         "fecha": "2020-04-01",
         "nuevos_positivos": 43,
         "codigo_ine": 24089,
         "casos_confirmados": 1007,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1204,10 +2327,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 34,
         "codigo_ine": 34120,
         "casos_confirmados": 359,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1220,10 +2352,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 9,
         "codigo_ine": 49275,
         "casos_confirmados": 226,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1236,10 +2377,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 131,
         "codigo_ine": 37274,
         "casos_confirmados": 1316,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1252,10 +2402,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 104,
         "codigo_ine": 42173,
         "casos_confirmados": 659,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1268,10 +2427,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 121,
         "codigo_ine": 47186,
         "casos_confirmados": 1109,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1284,10 +2452,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 58,
         "codigo_ine": 9059,
         "casos_confirmados": 848,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1300,10 +2477,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 91,
         "codigo_ine": 40004,
         "casos_confirmados": 811,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1316,10 +2502,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 32,
         "codigo_ine": 34120,
         "casos_confirmados": 325,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1332,26 +2527,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 107,
         "codigo_ine": 37274,
         "casos_confirmados": 1185,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b0b5d4ac35660f421c72c6ccd02b02e54a45e624",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 176,
         "fallecimientos": 100,
         "fecha": "2020-03-31",
         "nuevos_positivos": 46,
         "codigo_ine": 24089,
         "casos_confirmados": 964,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1364,10 +2577,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 91,
         "codigo_ine": 40004,
         "casos_confirmados": 720,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1380,10 +2602,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 42173,
         "casos_confirmados": 555,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1396,26 +2627,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 8,
         "codigo_ine": 49275,
         "casos_confirmados": 217,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "7d6f411911d9f8e5d7b4b6a52264e7ae8dea2b86",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 111,
         "fallecimientos": 54,
         "fecha": "2020-03-31",
         "nuevos_positivos": 21,
         "codigo_ine": 5019,
         "casos_confirmados": 467,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1428,10 +2677,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 41,
         "codigo_ine": 9059,
         "casos_confirmados": 790,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1444,26 +2702,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 59,
         "codigo_ine": 47186,
         "casos_confirmados": 988,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "0b96197bf5861e44e22c02e5a1334685d718e633",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 139,
         "fallecimientos": 89,
         "fecha": "2020-03-30",
         "nuevos_positivos": 97,
         "codigo_ine": 24089,
         "casos_confirmados": 918,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1476,26 +2752,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 43,
         "codigo_ine": 47186,
         "casos_confirmados": 929,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b11349be2aa56122729bbb817beec2ec09ea7101",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 91,
         "fallecimientos": 46,
         "fecha": "2020-03-30",
         "nuevos_positivos": 32,
         "codigo_ine": 5019,
         "casos_confirmados": 446,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1508,10 +2802,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 31,
         "codigo_ine": 34120,
         "casos_confirmados": 293,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1524,10 +2827,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 48,
         "codigo_ine": 37274,
         "casos_confirmados": 1078,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1540,10 +2852,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 62,
         "codigo_ine": 40004,
         "casos_confirmados": 629,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1556,10 +2877,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 27,
         "codigo_ine": 42173,
         "casos_confirmados": 550,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1572,10 +2902,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 30,
         "codigo_ine": 9059,
         "casos_confirmados": 749,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1588,10 +2927,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 17,
         "codigo_ine": 49275,
         "casos_confirmados": 209,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1604,10 +2952,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 42,
         "codigo_ine": 34120,
         "casos_confirmados": 262,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1620,10 +2977,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 64,
         "codigo_ine": 40004,
         "casos_confirmados": 567,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1636,10 +3002,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 92,
         "codigo_ine": 42173,
         "casos_confirmados": 523,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1652,26 +3027,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 148,
         "codigo_ine": 37274,
         "casos_confirmados": 1030,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "e0dd53841077feac11499555e0514749a6107025",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 82,
         "fallecimientos": 41,
         "fecha": "2020-03-29",
         "nuevos_positivos": 33,
         "codigo_ine": 5019,
         "casos_confirmados": 414,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1684,26 +3077,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 46,
         "codigo_ine": 9059,
         "casos_confirmados": 719,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "abdb0ed4a87fec8e20c75b6612730d56c1e1a483",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 118,
         "fallecimientos": 77,
         "fecha": "2020-03-29",
         "nuevos_positivos": 95,
         "codigo_ine": 24089,
         "casos_confirmados": 821,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1716,10 +3127,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 79,
         "codigo_ine": 47186,
         "casos_confirmados": 886,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1732,26 +3152,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 24,
         "codigo_ine": 49275,
         "casos_confirmados": 192,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c14b5e9a62cb6d6e4ebfd5362d8c91eac32bada0",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 99,
         "fallecimientos": 67,
         "fecha": "2020-03-28",
         "nuevos_positivos": 98,
         "codigo_ine": 24089,
         "casos_confirmados": 726,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1764,10 +3202,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 79,
         "codigo_ine": 40004,
         "casos_confirmados": 503,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1780,10 +3227,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 44,
         "codigo_ine": 49275,
         "casos_confirmados": 168,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1796,10 +3252,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 69,
         "codigo_ine": 9059,
         "casos_confirmados": 673,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1812,10 +3277,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 50,
         "codigo_ine": 34120,
         "casos_confirmados": 220,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1828,26 +3302,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 115,
         "codigo_ine": 47186,
         "casos_confirmados": 807,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "5daa372e2e56f0eabb605e400fdfa6756ba2a40c",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 78,
         "fallecimientos": 38,
         "fecha": "2020-03-28",
         "nuevos_positivos": 39,
         "codigo_ine": 5019,
         "casos_confirmados": 381,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1860,10 +3352,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 106,
         "codigo_ine": 37274,
         "casos_confirmados": 882,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1876,26 +3377,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 59,
         "codigo_ine": 42173,
         "casos_confirmados": 431,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "453964946b47cd31cd4b620d008b6d1f2e910964",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 63,
         "fallecimientos": 33,
         "fecha": "2020-03-27",
         "nuevos_positivos": 72,
         "codigo_ine": 5019,
         "casos_confirmados": 342,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1908,10 +3427,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 63,
         "codigo_ine": 40004,
         "casos_confirmados": 424,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1924,26 +3452,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 74,
         "codigo_ine": 9059,
         "casos_confirmados": 604,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "47ef83df2a9135a64064161035802a411e4562f8",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 69,
         "fallecimientos": 55,
         "fecha": "2020-03-27",
         "nuevos_positivos": 112,
         "codigo_ine": 24089,
         "casos_confirmados": 628,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1956,10 +3502,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 147,
         "codigo_ine": 37274,
         "casos_confirmados": 776,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1972,10 +3527,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 33,
         "codigo_ine": 42173,
         "casos_confirmados": 372,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1988,10 +3552,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 94,
         "codigo_ine": 47186,
         "casos_confirmados": 692,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2004,10 +3577,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 31,
         "codigo_ine": 34120,
         "casos_confirmados": 170,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2020,26 +3602,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 18,
         "codigo_ine": 49275,
         "casos_confirmados": 124,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "050e406329cbb68e10af859142744815bee5f5f8",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 53,
         "fallecimientos": 27,
         "fecha": "2020-03-26",
         "nuevos_positivos": 44,
         "codigo_ine": 5019,
         "casos_confirmados": 270,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2052,10 +3652,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 76,
         "codigo_ine": 42173,
         "casos_confirmados": 339,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2068,10 +3677,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 3,
         "codigo_ine": 49275,
         "casos_confirmados": 106,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2084,10 +3702,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 45,
         "codigo_ine": 9059,
         "casos_confirmados": 530,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2100,10 +3727,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 48,
         "codigo_ine": 34120,
         "casos_confirmados": 139,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2116,26 +3752,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 96,
         "codigo_ine": 37274,
         "casos_confirmados": 629,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "b0f8f98364221c8dbc7260daf2fa1fab736fd2ae",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 48,
         "fallecimientos": 46,
         "fecha": "2020-03-26",
         "nuevos_positivos": 78,
         "codigo_ine": 24089,
         "casos_confirmados": 516,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2148,10 +3802,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 61,
         "codigo_ine": 40004,
         "casos_confirmados": 361,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2164,26 +3827,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 97,
         "codigo_ine": 47186,
         "casos_confirmados": 598,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "cf2dd9f6e81ce9cb23e4e44d60769b68329e8f1d",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 36,
         "fallecimientos": 21,
         "fecha": "2020-03-25",
         "nuevos_positivos": 25,
         "codigo_ine": 5019,
         "casos_confirmados": 226,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2196,10 +3877,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 84,
         "codigo_ine": 42173,
         "casos_confirmados": 263,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2212,10 +3902,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 91,
         "codigo_ine": 47186,
         "casos_confirmados": 501,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2228,10 +3927,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 3,
         "codigo_ine": 49275,
         "casos_confirmados": 103,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2244,26 +3952,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 93,
         "codigo_ine": 9059,
         "casos_confirmados": 485,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "514b2d776eeb7adf1db8810517344af3416e9169",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 31,
         "fallecimientos": 31,
         "fecha": "2020-03-25",
         "nuevos_positivos": 76,
         "codigo_ine": 24089,
         "casos_confirmados": 438,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2276,10 +4002,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 50,
         "codigo_ine": 37274,
         "casos_confirmados": 533,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2292,10 +4027,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 19,
         "codigo_ine": 34120,
         "casos_confirmados": 91,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2308,26 +4052,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 39,
         "codigo_ine": 40004,
         "casos_confirmados": 300,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "6eb321d96ff653128fa30fdebf2baad083f3fa6f",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 23,
         "fallecimientos": 15,
         "fecha": "2020-03-24",
         "nuevos_positivos": 42,
         "codigo_ine": 5019,
         "casos_confirmados": 201,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2340,10 +4102,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 56,
         "codigo_ine": 9059,
         "casos_confirmados": 392,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2356,10 +4127,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 8,
         "codigo_ine": 34120,
         "casos_confirmados": 72,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2372,10 +4152,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 39,
         "codigo_ine": 42173,
         "casos_confirmados": 179,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2388,26 +4177,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 10,
         "codigo_ine": 49275,
         "casos_confirmados": 100,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "c3593a36fca45dad85bd90a8bd1ad31095eb185b",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 21,
         "fallecimientos": 24,
         "fecha": "2020-03-24",
         "nuevos_positivos": 72,
         "codigo_ine": 24089,
         "casos_confirmados": 362,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2420,10 +4227,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 79,
         "codigo_ine": 37274,
         "casos_confirmados": 483,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2436,10 +4252,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 38,
         "codigo_ine": 40004,
         "casos_confirmados": 261,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2452,10 +4277,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 61,
         "codigo_ine": 47186,
         "casos_confirmados": 410,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2468,10 +4302,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 14,
         "codigo_ine": 34120,
         "casos_confirmados": 64,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2484,42 +4327,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 20,
         "codigo_ine": 49275,
         "casos_confirmados": 90,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "1ce1eb4e93c2d298943858593c9f1f6188ff7512",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 17,
         "fallecimientos": 10,
         "fecha": "2020-03-23",
         "nuevos_positivos": 16,
         "codigo_ine": 5019,
         "casos_confirmados": 159,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "cda46e65280afed45284e3497c9dd3481e2d3cd9",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 16,
         "fallecimientos": 20,
         "fecha": "2020-03-23",
         "nuevos_positivos": 57,
         "codigo_ine": 24089,
         "casos_confirmados": 290,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2532,10 +4402,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 89,
         "codigo_ine": 37274,
         "casos_confirmados": 404,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2548,10 +4427,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 34,
         "codigo_ine": 9059,
         "casos_confirmados": 336,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2564,10 +4452,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 29,
         "codigo_ine": 40004,
         "casos_confirmados": 223,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2580,10 +4477,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 42173,
         "casos_confirmados": 140,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2596,26 +4502,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 47,
         "codigo_ine": 47186,
         "casos_confirmados": 349,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "a3053f8a0d3341f2fc646792966423a7eb13c7e3",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 16,
         "fallecimientos": 9,
         "fecha": "2020-03-22",
         "nuevos_positivos": 29,
         "codigo_ine": 5019,
         "casos_confirmados": 143,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2628,26 +4552,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 33,
         "codigo_ine": 9059,
         "casos_confirmados": 302,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "2c2c54ee22e687a2aa09a613630f74698436ce31",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 10,
         "fallecimientos": 14,
         "fecha": "2020-03-22",
         "nuevos_positivos": 32,
         "codigo_ine": 24089,
         "casos_confirmados": 233,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2660,10 +4602,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 50,
         "codigo_ine": 37274,
         "casos_confirmados": 315,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2676,10 +4627,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 11,
         "codigo_ine": 49275,
         "casos_confirmados": 70,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2692,10 +4652,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 16,
         "codigo_ine": 42173,
         "casos_confirmados": 135,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2708,10 +4677,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 61,
         "codigo_ine": 47186,
         "casos_confirmados": 302,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2724,10 +4702,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 9,
         "codigo_ine": 34120,
         "casos_confirmados": 50,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2740,10 +4727,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 37,
         "codigo_ine": 40004,
         "casos_confirmados": 194,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2756,10 +4752,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 61,
         "codigo_ine": 9059,
         "casos_confirmados": 269,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2772,10 +4777,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 40004,
         "casos_confirmados": 157,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2788,10 +4802,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 40,
         "codigo_ine": 47186,
         "casos_confirmados": 241,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2804,42 +4827,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 13,
         "codigo_ine": 49275,
         "casos_confirmados": 59,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "4e7fde77905ff7aa9a44495d0815f8c538ae8643",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 14,
         "fallecimientos": 7,
         "fecha": "2020-03-21",
         "nuevos_positivos": 51,
         "codigo_ine": 5019,
         "casos_confirmados": 114,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "80acd044256c07bec1ea18c59ac60e43d5e4a2bd",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 7,
         "fecha": "2020-03-21",
         "nuevos_positivos": 37,
         "codigo_ine": 24089,
         "casos_confirmados": 201,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2852,10 +4902,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 15,
         "codigo_ine": 34120,
         "casos_confirmados": 41,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2868,10 +4927,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 62,
         "codigo_ine": 37274,
         "casos_confirmados": 265,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2884,10 +4952,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 39,
         "codigo_ine": 42173,
         "casos_confirmados": 119,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2900,10 +4977,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 54,
         "codigo_ine": 37274,
         "casos_confirmados": 203,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2916,10 +5002,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 35,
         "codigo_ine": 40004,
         "casos_confirmados": 156,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2932,10 +5027,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 22,
         "codigo_ine": 42173,
         "casos_confirmados": 80,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2948,10 +5052,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 86,
         "codigo_ine": 47186,
         "casos_confirmados": 201,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2964,26 +5077,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 15,
         "codigo_ine": 49275,
         "casos_confirmados": 46,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "335774beb954091c28e91c796732177775e78d18",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 4,
         "fallecimientos": 4,
         "fecha": "2020-03-20",
         "nuevos_positivos": 4,
         "codigo_ine": 5019,
         "casos_confirmados": 63,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2996,26 +5127,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 21,
         "codigo_ine": 9059,
         "casos_confirmados": 208,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "fcd3b7db4952091ffc3416f8844e6b647e4ba2d8",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 5,
         "fecha": "2020-03-20",
         "nuevos_positivos": 30,
         "codigo_ine": 24089,
         "casos_confirmados": 164,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3028,26 +5177,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 12,
         "codigo_ine": 34120,
         "casos_confirmados": 26,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "754fcb6ecf3e812654cf4b37b463e7ccb57cfaa3",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 2,
         "fallecimientos": 2,
         "fecha": "2020-03-19",
         "nuevos_positivos": 17,
         "codigo_ine": 5019,
         "casos_confirmados": 59,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3060,10 +5227,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 22,
         "codigo_ine": 9059,
         "casos_confirmados": 187,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3076,10 +5252,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 33,
         "codigo_ine": 47186,
         "casos_confirmados": 115,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3092,10 +5277,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 8,
         "codigo_ine": 34120,
         "casos_confirmados": 14,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3108,10 +5302,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 24,
         "codigo_ine": 37274,
         "casos_confirmados": 149,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3124,26 +5327,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 18,
         "codigo_ine": 42173,
         "casos_confirmados": 58,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "128ed1e573638f63665b7ca1eccf85ce198d75f3",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 5,
         "fecha": "2020-03-19",
         "nuevos_positivos": 28,
         "codigo_ine": 24089,
         "casos_confirmados": 134,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3156,10 +5377,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 45,
         "codigo_ine": 40004,
         "casos_confirmados": 121,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3172,42 +5402,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 49275,
         "casos_confirmados": 31,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "1a85f80fd094b8b65b5e5314123c60f32c43f409",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 1,
         "fallecimientos": 1,
         "fecha": "2020-03-18",
         "nuevos_positivos": 24,
         "codigo_ine": 5019,
         "casos_confirmados": 42,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "fa1627201da01d0fbccf4bf4c07b95e43c10075a",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 3,
         "fallecimientos": 4,
         "fecha": "2020-03-18",
         "nuevos_positivos": 31,
         "codigo_ine": 24089,
         "casos_confirmados": 106,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3220,10 +5477,19 @@ const epidemiologicalData = {
         "nuevos_positivos": -1,
         "codigo_ine": 34120,
         "casos_confirmados": 6,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3236,10 +5502,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 43,
         "codigo_ine": 40004,
         "casos_confirmados": 76,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3252,10 +5527,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 39,
         "codigo_ine": 9059,
         "casos_confirmados": 165,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3268,10 +5552,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 60,
         "codigo_ine": 37274,
         "casos_confirmados": 125,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3284,10 +5577,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 10,
         "codigo_ine": 49275,
         "casos_confirmados": 26,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3300,10 +5602,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 23,
         "codigo_ine": 42173,
         "casos_confirmados": 40,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3316,26 +5627,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 8,
         "codigo_ine": 47186,
         "casos_confirmados": 82,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "4a97a9326a6a633c220c769b11bba5a9efa0936d",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 2,
         "fallecimientos": 3,
         "fecha": "2020-03-17",
         "nuevos_positivos": 28,
         "codigo_ine": 24089,
         "casos_confirmados": 75,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3348,10 +5677,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 33,
         "codigo_ine": 37274,
         "casos_confirmados": 65,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3364,10 +5702,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 9059,
         "casos_confirmados": 126,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3380,10 +5727,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 0,
         "codigo_ine": 40004,
         "casos_confirmados": 33,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3396,26 +5752,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 7,
         "codigo_ine": 42173,
         "casos_confirmados": 17,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "cef95db5e10ac7155cf3c1880889690e73920df3",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 1,
         "fallecimientos": 0,
         "fecha": "2020-03-17",
         "nuevos_positivos": 1,
         "codigo_ine": 5019,
         "casos_confirmados": 18,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3428,10 +5802,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 34120,
         "casos_confirmados": 7,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3444,10 +5827,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 18,
         "codigo_ine": 47186,
         "casos_confirmados": 74,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3460,26 +5852,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 4,
         "codigo_ine": 49275,
         "casos_confirmados": 16,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "12ac78298c7dc188060459a5d37e8f98c9b34e91",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-16",
         "nuevos_positivos": 7,
         "codigo_ine": 5019,
         "casos_confirmados": 17,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3492,10 +5902,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 6,
         "codigo_ine": 40004,
         "casos_confirmados": 33,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3508,10 +5927,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 16,
         "codigo_ine": 47186,
         "casos_confirmados": 56,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3524,26 +5952,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 2,
         "codigo_ine": 9059,
         "casos_confirmados": 121,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "a1b28d09d6e1fdae0e8bda9e615a8afb2e4b10ab",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 1,
         "fallecimientos": 1,
         "fecha": "2020-03-16",
         "nuevos_positivos": 0,
         "codigo_ine": 24089,
         "casos_confirmados": 47,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3556,10 +6002,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 34120,
         "casos_confirmados": 6,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3572,10 +6027,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 37274,
         "casos_confirmados": 32,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3588,10 +6052,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 42173,
         "casos_confirmados": 10,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3604,10 +6077,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 4,
         "codigo_ine": 49275,
         "casos_confirmados": 12,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3620,26 +6102,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 8,
         "codigo_ine": 9059,
         "casos_confirmados": 119,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "ea37d941c2e70b5f606aed261f9a9a7cefe3be61",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-15",
         "nuevos_positivos": 0,
         "codigo_ine": 5019,
         "casos_confirmados": 10,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3652,10 +6152,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 19,
         "codigo_ine": 37274,
         "casos_confirmados": 31,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3668,10 +6177,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 42173,
         "casos_confirmados": 5,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3684,26 +6202,44 @@ const epidemiologicalData = {
         "nuevos_positivos": 19,
         "codigo_ine": 47186,
         "casos_confirmados": 40,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "be71ecf8ae8e8bfa42a185e786e973fd8c8fb68c",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 1,
         "fallecimientos": 1,
         "fecha": "2020-03-15",
         "nuevos_positivos": 14,
         "codigo_ine": 24089,
         "casos_confirmados": 47,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3716,10 +6252,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 2,
         "codigo_ine": 34120,
         "casos_confirmados": 5,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3732,10 +6277,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 40004,
         "casos_confirmados": 27,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3748,10 +6302,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 3,
         "codigo_ine": 49275,
         "casos_confirmados": 8,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3764,10 +6327,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 23,
         "codigo_ine": 9059,
         "casos_confirmados": 113,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3780,10 +6352,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 2,
         "codigo_ine": 34120,
         "casos_confirmados": 3,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3796,10 +6377,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 7,
         "codigo_ine": 40004,
         "casos_confirmados": 22,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3812,42 +6402,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 3,
         "codigo_ine": 42173,
         "casos_confirmados": 4,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "ab60bf72d8f7f811404cc753703ea34bf0bdc883",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-14",
         "nuevos_positivos": 7,
         "codigo_ine": 5019,
         "casos_confirmados": 10,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "07e28624cda50d3d9fa939c67ba21dcfdb5a351d",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 1,
         "fallecimientos": 0,
         "fecha": "2020-03-14",
         "nuevos_positivos": 1,
         "codigo_ine": 24089,
         "casos_confirmados": 33,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3860,10 +6477,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 37274,
         "casos_confirmados": 12,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3876,10 +6502,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 10,
         "codigo_ine": 47186,
         "casos_confirmados": 21,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3892,10 +6527,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 0,
         "codigo_ine": 49275,
         "casos_confirmados": 5,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3908,10 +6552,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 29,
         "codigo_ine": 9059,
         "casos_confirmados": 90,
-        "posicion": [42.383333, -3.666667]
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-3.666667, 42.383333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3924,10 +6577,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 5,
         "codigo_ine": 37274,
         "casos_confirmados": 11,
-        "posicion": [40.833333, -6.0]
+        "posicion": [
+          40.833333,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 40.833333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3940,10 +6602,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 3,
         "codigo_ine": 49275,
         "casos_confirmados": 5,
-        "posicion": [41.75, -6.0]
+        "posicion": [
+          41.75,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 41.75] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3956,10 +6627,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 6,
         "codigo_ine": 40004,
         "casos_confirmados": 15,
-        "posicion": [41.166667, -4.0]
+        "posicion": [
+          41.166667,
+          -4
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.0, 41.166667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3972,42 +6652,69 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 42173,
         "casos_confirmados": 1,
-        "posicion": [41.666667, -2.666667]
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-2.666667, 41.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "58c4d3f013fb7c1c72e58a3c4017cdb479f3cd08",
       "fields": {
-        "provincia": "\u00c1vila",
+        "provincia": "Ávila",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-13",
         "nuevos_positivos": 3,
         "codigo_ine": 5019,
         "casos_confirmados": 3,
-        "posicion": [40.616092, -4.929031]
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.929031, 40.616092] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "3a460f1b9c30230e11044d0a046c3210a9a862f1",
       "fields": {
-        "provincia": "Le\u00f3n",
+        "provincia": "León",
         "altas": 0,
         "fallecimientos": 0,
         "fecha": "2020-03-13",
         "nuevos_positivos": 22,
         "codigo_ine": 24089,
         "casos_confirmados": 32,
-        "posicion": [42.666667, -6.0]
+        "posicion": [
+          42.666667,
+          -6
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-6.0, 42.666667] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4020,10 +6727,19 @@ const epidemiologicalData = {
         "nuevos_positivos": 1,
         "codigo_ine": 34120,
         "casos_confirmados": 1,
-        "posicion": [42.432128, -4.520647]
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.520647, 42.432128] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4036,63 +6752,77 @@ const epidemiologicalData = {
         "nuevos_positivos": 7,
         "codigo_ine": 47186,
         "casos_confirmados": 11,
-        "posicion": [41.583333, -4.666667]
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [-4.666667, 41.583333] },
-      "record_timestamp": "2020-04-09T10:31:38.936000+00:00"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
     }
   ],
   "facet_groups": [
     {
       "facets": [
         {
-          "count": 28,
+          "count": 30,
           "path": "Burgos",
           "state": "displayed",
           "name": "Burgos"
         },
         {
-          "count": 28,
-          "path": "Le\u00f3n",
+          "count": 30,
+          "path": "León",
           "state": "displayed",
-          "name": "Le\u00f3n"
+          "name": "León"
         },
         {
-          "count": 28,
+          "count": 30,
           "path": "Palencia",
           "state": "displayed",
           "name": "Palencia"
         },
         {
-          "count": 28,
+          "count": 30,
           "path": "Salamanca",
           "state": "displayed",
           "name": "Salamanca"
         },
         {
-          "count": 28,
+          "count": 30,
           "path": "Segovia",
           "state": "displayed",
           "name": "Segovia"
         },
-        { "count": 28, "path": "Soria", "state": "displayed", "name": "Soria" },
         {
-          "count": 28,
+          "count": 30,
+          "path": "Soria",
+          "state": "displayed",
+          "name": "Soria"
+        },
+        {
+          "count": 30,
           "path": "Valladolid",
           "state": "displayed",
           "name": "Valladolid"
         },
         {
-          "count": 28,
+          "count": 30,
           "path": "Zamora",
           "state": "displayed",
           "name": "Zamora"
         },
         {
-          "count": 28,
-          "path": "\u00c1vila",
+          "count": 30,
+          "path": "Ávila",
           "state": "displayed",
-          "name": "\u00c1vila"
+          "name": "Ávila"
         }
       ],
       "name": "provincia"
