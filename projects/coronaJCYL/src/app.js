@@ -199,20 +199,38 @@ var app = new Vue({
 
       this.correctTransform = 0;
     },
-    loadData() {
-      let url = 'https://data.opendatasoft.com/api/records/1.0/search/?dataset=situacion-epidemiologica-coronavirus-en-castilla-y-leon%40jcyl&rows=-1';
-
-      axios({
+    queryEpidemiological() {
+      return axios({
         method: "GET",
-        url,
+        url: "https://data.opendatasoft.com/api/records/1.0/search/?dataset=situacion-epidemiologica-coronavirus-en-castilla-y-leon%40jcyl&rows=-1&sort=fecha&facet=provincia",
         headers: {
           "Accept": "application/json"
         }
-      })
-        .then(this.formatData)
-        .catch((error) => {
-          console.log(error);
-        });
+      });
+    },
+    queryHospitalized() {
+      return axios({
+        method: "GET",
+        url: "https://data.opendatasoft.com/api/records/1.0/search/?dataset=situacion-de-hospitalizados-por-coronavirus-en-castilla-y-leon%40jcyl&rows=-1&sort=fecha&facet=provincia",
+        headers: {
+          "Accept": "application/json"
+        }
+      });
+    },
+    loadData() {
+      Promise.allSettled([this.queryEpidemiological()])//, queryHospitalized()])
+        .then(resolve => {
+          //console.log(resolve);
+          var epidemiologicalData = resolve[0].status == 'fulfilled' ? resolve[0].value.data : undefined;
+          //var hospitalizedData = resolve[1].status == 'fulfilled' ? resolve[1].value.data : undefined;
+          /*
+          console.log("Castilla y León");
+          console.log(JSON.stringify(epidemiologicalResponse));
+          console.log(JSON.stringify(hospitalizedResponse));
+          */
+          this.formatData("Castilla y León", epidemiologicalData, undefined);
+        })
+        .catch(error => console.log(`Error: ${error}`));
     },
     calculate(num, mult) {
       return this.roundedMax(this.roundedMax(num) * mult)
@@ -240,7 +258,7 @@ var app = new Vue({
     }
   },
   mounted() {
-    // this.loadData();
-    this.formatData("Castilla y León", epidemiologicalData, hospitalData);
+    this.loadData();
+    //this.formatData("Castilla y León", epidemiologicalData, hospitalData);
   }
 })

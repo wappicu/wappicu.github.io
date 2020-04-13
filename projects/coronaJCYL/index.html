@@ -35,9 +35,9 @@
         <bar-chart :id="name" :data="epidemiologicalData[name]" :view-data="viewData"
           v-show="viewData.value != 'hospital'">
         </bar-chart>
-        <line-chart :id="name" :data="hospitalData[name]" :view-data="viewData" v-if="loadHospitalData"
+        <!--<line-chart :id="name" :data="hospitalData[name]" :view-data="viewData" v-if="loadHospitalData"
           v-show="viewData.value == 'hospital'">
-        </line-chart>
+        </line-chart>-->
       </div>
       <hr />
       <!-- Provinces chats -->
@@ -50,8 +50,8 @@
           <bar-chart :id="pName" :data="epidemiologicalData[pName]" :view-data="viewData"
             v-show="viewData.value != 'hospital'">
           </bar-chart>
-          <line-chart :id="pName" :data="hospitalData[pName]" :view-data="viewData" v-if="loadHospitalData"
-            v-show="viewData.value == 'hospital'"></line-chart>
+          <!--<line-chart :id="pName" :data="hospitalData[pName]" :view-data="viewData" v-if="loadHospitalData"
+            v-show="viewData.value == 'hospital'"></line-chart>-->
         </div>
       </div>
     </div>
