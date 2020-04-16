@@ -88,14 +88,14 @@ var app = new Vue({
           if (acc.aux.axis.deaths.total < acc.res[stateName][fecha].deaths.total)
             acc.aux.axis.deaths.total = acc.res[stateName][fecha].deaths.total;
 
-          if (acc.aux.axis.cases.new < acc.res[stateName][fecha].cases.new)
-            acc.aux.axis.cases.new = acc.res[stateName][fecha].cases.new;
+          if (acc.aux.axis.cases.new < acc.res[state][fecha].cases.total)
+            acc.aux.axis.cases.new = acc.res[state][fecha].cases.total;
 
-          if (acc.aux.axis.discharged.new < acc.res[stateName][fecha].discharged.new)
-            acc.aux.axis.discharged.new = acc.res[stateName][fecha].discharged.new;
+          if (acc.aux.axis.discharged.new < acc.res[state][fecha].discharged.total)
+            acc.aux.axis.discharged.new = acc.res[state][fecha].discharged.total;
 
-          if (acc.aux.axis.deaths.new < acc.res[stateName][fecha].deaths.new)
-            acc.aux.axis.deaths.new = acc.res[stateName][fecha].deaths.new;
+          if (acc.aux.axis.deaths.new < acc.res[state][fecha].deaths.total)
+            acc.aux.axis.deaths.new = acc.res[state][fecha].deaths.total;
 
           return acc;
         }, structure);
@@ -105,7 +105,7 @@ var app = new Vue({
     formatHospital(stateName, hospitalData) {
       var provincesName = hospitalData.facet_groups.find(o => o.name === "provincia").facets.map(o => o.name).sort(Intl.Collator().compare);
 
-      var aux = { uci: 0, plant: 0, total: 0 };
+      var aux = { state: 0, province: 0 };//{ state: { uci: 0, plant: 0, total: 0 }, province: { uci: 0, plant: 0, total: 0 } };
       var res = {};
       res[stateName] = {};
 
@@ -145,13 +145,20 @@ var app = new Vue({
               plant: hospitalizados_planta,
               total: hospitalizados_planta + hospitalizados_uci
             };
-          }
-          if (acc.aux.uci < acc.res[state][fecha].uci)
-            acc.aux.uci = acc.res[state][fecha].uci
-          if (acc.aux.plant < acc.res[state][fecha].plant)
-            acc.aux.plant = acc.res[state][fecha].plant
-          if (acc.aux.total < acc.res[state][fecha].total)
-            acc.aux.total = acc.res[state][fecha].total
+          }/*
+          if (acc.aux.state.uci < acc.res[stateName][fecha].uci)
+            acc.aux.state.uci = acc.res[stateName][fecha].uci
+          if (acc.aux.state.plant < acc.res[stateName][fecha].plant)
+            acc.aux.state.plant = acc.res[stateName][fecha].plant*/
+          if (acc.aux.state < acc.res[stateName][fecha].total)
+            acc.aux.state = acc.res[stateName][fecha].total
+          /*
+                    if (acc.aux.province.uci < acc.res[state][fecha].uci)
+                      acc.aux.province.uci = acc.res[state][fecha].uci
+                    if (acc.aux.province.plant < acc.res[state][fecha].plant)
+                      acc.aux.province.plant = acc.res[state][fecha].plant*/
+          if (acc.aux.province < acc.res[state][fecha].total)
+            acc.aux.province = acc.res[state][fecha].total
 
           return acc;
         }, { res, aux });
@@ -160,19 +167,24 @@ var app = new Vue({
     },
     formatData(stateName, epidemiologicalData, hospitalData) {
       var { provincesName, data, axisMax } = this.formateEpidemiological(stateName, epidemiologicalData);
-      // console.log(JSON.stringify(axisMax));
 
-      //var { provincesName: pN2, data: dataHospital, error, axis: axisHospital } = this.formatHospital(stateName, hospitalData);
+      var { provincesName: pN2, data: dataHospital, error, axis: axisHospital } = this.formatHospital(stateName, hospitalData);
 
-      /*if ((JSON.stringify(provincesName) != JSON.stringify(pN2))) {
+      if ((JSON.stringify(provincesName) != JSON.stringify(pN2))) {
         throw new Error("Provinces are diferent")
-      }*/
+      }
 
       Object.keys(axisMax).forEach(k => {
-        axisMax[k].total = this.calculate(axisMax[k].total, 1.1);
-        axisMax[k].low = this.calculate(axisMax[k].new, 1 / 2);
-        axisMax[k].new = this.calculate(axisMax[k].new, 3.5);
+        axisMax[k].state = {
+          total: this.calculate(axisMax[k].total, 1.05),
+          low: this.calculate(axisMax[k].total, 1 / 6)
+        };
+        axisMax[k].province = {
+          total: this.calculate(axisMax[k].new, 1.05),
+          low: this.calculate(axisMax[k].new, 1 / 6)
+        };
       });
+
       this.viewData = {
         stateName,
         axisMax,
@@ -183,15 +195,15 @@ var app = new Vue({
         ], value: "cases"
       };
 
-      /*if (!error) {
+      if (!error) {
         this.hospitalData = dataHospital;
-        axisMax["hospital"] = {
-          total: this.calculate(axisHospital.total, 1.1),
-          new: this.calculate(axisHospital.plant, 3),
-          low: this.calculate(axisHospital.uci, 3)
+        this.viewData.axisMax.hospital = {
+          state: this.calculate(axisHospital.state, 1.05),
+          province: this.calculate(axisHospital.province, 1.05)
         };
-        this.viewData.types.push({ en: "Hospital", es: "Hospitalizados", default: "hospital" });
-      }*/
+        this.viewData.types.unshift({ en: "Hospital", es: "Hospitalizados", default: "hospital" });
+        this.viewData.value = "hospital";
+      }
 
       this.provincesName = provincesName;
       this.epidemiologicalData = data;
@@ -218,17 +230,17 @@ var app = new Vue({
       });
     },
     loadData() {
-      Promise.allSettled([this.queryEpidemiological()])//, queryHospitalized()])
+      Promise.allSettled([this.queryEpidemiological(), this.queryHospitalized()])
         .then(resolve => {
           //console.log(resolve);
           var epidemiologicalData = resolve[0].status == 'fulfilled' ? resolve[0].value.data : undefined;
-          //var hospitalizedData = resolve[1].status == 'fulfilled' ? resolve[1].value.data : undefined;
+          var hospitalizedData = resolve[1].status == 'fulfilled' ? resolve[1].value.data : undefined;
           /*
           console.log("Castilla y León");
           console.log(JSON.stringify(epidemiologicalResponse));
           console.log(JSON.stringify(hospitalizedResponse));
           */
-          this.formatData("Castilla y León", epidemiologicalData, undefined);
+          this.formatData("Castilla y León", epidemiologicalData, hospitalizedData);
         })
         .catch(error => console.log(`Error: ${error}`));
     },
@@ -253,12 +265,12 @@ var app = new Vue({
     }
   },
   computed: {
-    loadHospitalData() {
-      return this.hospitalData && this.hospitalData == {}
+    viewHospital() {
+      return this.viewData.value == "hospital";
     }
   },
   mounted() {
+    console.log("on load")
     this.loadData();
-    //this.formatData("Castilla y León", epidemiologicalData, hospitalData);
   }
 })

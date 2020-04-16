@@ -16,7 +16,7 @@ Vue.component('bar-chart', {
             },
             ticks: {
               fontColor: "rgba(240, 52, 52, 0.75)",
-              max: this.id == this.viewData.stateName ? this.viewData.axisMax[this.viewData.value].new : this.viewData.axisMax[this.viewData.value].low,
+              max: this.viewData.axisMax[this.viewData.value][this.id == this.viewData.stateName ? "state" : "province"].low,
               min: 0,
             },
             scaleLabel: {
@@ -33,7 +33,7 @@ Vue.component('bar-chart', {
             },
             ticks: {
               fontColor: 'rgba(44, 130, 201, 0.75)',
-              max: this.id == this.viewData.stateName ? this.viewData.axisMax[this.viewData.value].total : this.viewData.axisMax[this.viewData.value].new,
+              max: this.viewData.axisMax[this.viewData.value][this.id == this.viewData.stateName ? "state" : "province"].total,
               min: 0
             },
             scaleLabel: {
@@ -69,11 +69,13 @@ Vue.component('bar-chart', {
     viewData: {
       deep: true,
       handler() {
-        this.drawBar();
+        if (this.viewData.value != "hospital")
+          this.drawBar();
       }
     }
   },
   mounted() {
-    this.drawBar();
+    if (this.viewData.value != "hospital")
+      this.drawBar();
   }
 });

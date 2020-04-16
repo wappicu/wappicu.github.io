@@ -1,6 +1,6 @@
 const epidemiologicalData =
 {
-  "nhits": 270,
+  "nhits": 315,
   "parameters": {
     "dataset": [
       "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl"
@@ -16,6 +16,1131 @@ const epidemiologicalData =
     ]
   },
   "records": [
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "1e0a60d720688535d55baa1c3c8892666c648cf6",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 201,
+        "fallecimientos": 54,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 6,
+        "codigo_ine": 34120,
+        "casos_confirmados": 654,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "893161ddc68e0f69d1b5ceb04d22caf1720ddd7e",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 709,
+        "fallecimientos": 269,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 88,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2379,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "260a38d7157d598a65f76787b9add7c91c764c4b",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 599,
+        "fallecimientos": 159,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 88,
+        "codigo_ine": 40004,
+        "casos_confirmados": 2191,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "701f2c06a4ac04316484cbda9734d5cd549e9423",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 417,
+        "fallecimientos": 107,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 36,
+        "codigo_ine": 5019,
+        "casos_confirmados": 1023,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "935ac5985470db467c9b6d4ba7147faa7dd7106c",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 583,
+        "fallecimientos": 152,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 86,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1406,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "6fb8846333073bd63c8aef3dd6a9bc0c8986f2dd",
+      "fields": {
+        "provincia": "León",
+        "altas": 957,
+        "fallecimientos": 283,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 184,
+        "codigo_ine": 24089,
+        "casos_confirmados": 2119,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "e68410b359abed71195272faff850eb0e526a2ce",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 989,
+        "fallecimientos": 229,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 110,
+        "codigo_ine": 47186,
+        "casos_confirmados": 2946,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "d45aa81f011b054363f3d82036d19f8849ad4bd6",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 191,
+        "fallecimientos": 57,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 48,
+        "codigo_ine": 49275,
+        "casos_confirmados": 530,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "b04d151f87485eed89da1eacfd1e8835a3eb38e2",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 278,
+        "fallecimientos": 91,
+        "fecha": "2020-04-16",
+        "nuevos_positivos": 37,
+        "codigo_ine": 42173,
+        "casos_confirmados": 1132,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "075132270a14fe5940a6e3fcffd9bac9e4d2138f",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 402,
+        "fallecimientos": 104,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 21,
+        "codigo_ine": 5019,
+        "casos_confirmados": 987,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "b80a4ffd3f3da850248f8d6aa56144a3455f3da1",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 564,
+        "fallecimientos": 149,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 63,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1320,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "21746d67267d881549ee2b9d3368cc80bac901be",
+      "fields": {
+        "provincia": "León",
+        "altas": 906,
+        "fallecimientos": 273,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 70,
+        "codigo_ine": 24089,
+        "casos_confirmados": 1935,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "b7558b7f5151a4e4654552690e11ad7fb9be99f0",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 686,
+        "fallecimientos": 267,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 22,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2291,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "45809920b6c1521b707deb48e346e139db17fa5e",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 582,
+        "fallecimientos": 158,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 109,
+        "codigo_ine": 40004,
+        "casos_confirmados": 2103,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "aaeac07d04f3b126bf8d25879d4a46c56086d2cb",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 265,
+        "fallecimientos": 90,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 42,
+        "codigo_ine": 42173,
+        "casos_confirmados": 1095,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "4fd116d58a1ff80c74dde43c437ba2f05415edb7",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 182,
+        "fallecimientos": 55,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 23,
+        "codigo_ine": 49275,
+        "casos_confirmados": 482,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "99ce2fbccb12a2b1cbfec9e839614c7cb6c9c2e7",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 195,
+        "fallecimientos": 53,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 3,
+        "codigo_ine": 34120,
+        "casos_confirmados": 648,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "827e2f3504793015a457ff51568930b232f65258",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 943,
+        "fallecimientos": 223,
+        "fecha": "2020-04-15",
+        "nuevos_positivos": 164,
+        "codigo_ine": 47186,
+        "casos_confirmados": 2836,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "2f87a4ae72cdf2ff8e51f32f3322525527d811c5",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 548,
+        "fallecimientos": 148,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 25,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1257,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "63707ddca5f36d7329b745970f1e63af1108a51e",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 563,
+        "fallecimientos": 155,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 81,
+        "codigo_ine": 40004,
+        "casos_confirmados": 1994,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "5c6bf8c21bf03e3ae32ebdfbe2c183d3b4e12447",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 896,
+        "fallecimientos": 216,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 180,
+        "codigo_ine": 47186,
+        "casos_confirmados": 2672,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "17d16283c6df266f2a59d186e3843adacf1bca8a",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 378,
+        "fallecimientos": 100,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 14,
+        "codigo_ine": 5019,
+        "casos_confirmados": 966,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "8cd1aa2654a2b22da2dcd1874c2865b768e05100",
+      "fields": {
+        "provincia": "León",
+        "altas": 854,
+        "fallecimientos": 264,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 186,
+        "codigo_ine": 24089,
+        "casos_confirmados": 1865,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "3e39ce6534e1e2cbd50bdd354251c27ebd783344",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 658,
+        "fallecimientos": 261,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 12,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2269,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "f565204e1dba724ea39ffd484c32236a0315994b",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 257,
+        "fallecimientos": 87,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 40,
+        "codigo_ine": 42173,
+        "casos_confirmados": 1053,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "2139dbf884379900b90617a0fc43faf9e5e6b6c7",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 192,
+        "fallecimientos": 52,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 9,
+        "codigo_ine": 34120,
+        "casos_confirmados": 645,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "f3807c60662571765b959003b5d5dd077a1a57cf",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 175,
+        "fallecimientos": 54,
+        "fecha": "2020-04-14",
+        "nuevos_positivos": 5,
+        "codigo_ine": 49275,
+        "casos_confirmados": 459,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "9be98cd8872094eeaec896fa418aa252ce603e6f",
+      "fields": {
+        "provincia": "León",
+        "altas": 811,
+        "fallecimientos": 255,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 104,
+        "codigo_ine": 24089,
+        "casos_confirmados": 1679,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "76c0174f6b850b6cc45cbfbae8a58a05aab6917c",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 530,
+        "fallecimientos": 151,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 68,
+        "codigo_ine": 40004,
+        "casos_confirmados": 1913,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "1289f0a442e386cf3727e6fcf047623f14b30953",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 354,
+        "fallecimientos": 96,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 35,
+        "codigo_ine": 5019,
+        "casos_confirmados": 952,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "e353003ae49646b90e75f6497d7ff553823046dc",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 177,
+        "fallecimientos": 50,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 16,
+        "codigo_ine": 34120,
+        "casos_confirmados": 636,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "d33c51e737c010bdc6eda4243706760c44db9494",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 627,
+        "fallecimientos": 258,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 64,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2257,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "58fe2f28ac0dc00d2e786afb2bbe43fa8ebf49ed",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 162,
+        "fallecimientos": 53,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 40,
+        "codigo_ine": 49275,
+        "casos_confirmados": 454,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "b0f5eb6d921d6265da54555fc413fd00a4fa1861",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 517,
+        "fallecimientos": 141,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 25,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1232,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "71234a41c2b8148126d23d6031a45978f8be5c0e",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 242,
+        "fallecimientos": 85,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 23,
+        "codigo_ine": 42173,
+        "casos_confirmados": 1013,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "31b9a396c6f5c54851787e70484d3021cd4d9170",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 846,
+        "fallecimientos": 210,
+        "fecha": "2020-04-13",
+        "nuevos_positivos": 135,
+        "codigo_ine": 47186,
+        "casos_confirmados": 2492,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "06bbc51c8f4a02bb22f25d8e23853e3726601b72",
+      "fields": {
+        "provincia": "Ávila",
+        "altas": 350,
+        "fallecimientos": 94,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 20,
+        "codigo_ine": 5019,
+        "casos_confirmados": 917,
+        "posicion": [
+          40.616092,
+          -4.929031
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.929031,
+          40.616092
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "0047a5c99dfa611e703f955be54bf918b9633337",
+      "fields": {
+        "provincia": "Burgos",
+        "altas": 509,
+        "fallecimientos": 140,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 37,
+        "codigo_ine": 9059,
+        "casos_confirmados": 1207,
+        "posicion": [
+          42.383333,
+          -3.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.666667,
+          42.383333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "501e2f6c3c137586288c33a536942d117e25987d",
+      "fields": {
+        "provincia": "León",
+        "altas": 781,
+        "fallecimientos": 245,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 37,
+        "codigo_ine": 24089,
+        "casos_confirmados": 1575,
+        "posicion": [
+          42.666667,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          42.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "50c1b35b6b64b9ae1771a9680aef116a64a6ff50",
+      "fields": {
+        "provincia": "Palencia",
+        "altas": 174,
+        "fallecimientos": 48,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 15,
+        "codigo_ine": 34120,
+        "casos_confirmados": 620,
+        "posicion": [
+          42.432128,
+          -4.520647
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.520647,
+          42.432128
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "0c63c16557e57a0b5b2c7be2e141eada491b0318",
+      "fields": {
+        "provincia": "Zamora",
+        "altas": 155,
+        "fallecimientos": 51,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 6,
+        "codigo_ine": 49275,
+        "casos_confirmados": 414,
+        "posicion": [
+          41.75,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          41.75
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "69703738e300f4e736e2a3a47479473fa5069213",
+      "fields": {
+        "provincia": "Segovia",
+        "altas": 508,
+        "fallecimientos": 146,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 85,
+        "codigo_ine": 40004,
+        "casos_confirmados": 1845,
+        "posicion": [
+          41.166667,
+          -4
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          41.166667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "df9793efc66ab101b07aa734bd766c45612687d5",
+      "fields": {
+        "provincia": "Valladolid",
+        "altas": 833,
+        "fallecimientos": 204,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 234,
+        "codigo_ine": 47186,
+        "casos_confirmados": 2357,
+        "posicion": [
+          41.583333,
+          -4.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.666667,
+          41.583333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "daa5c9c6b11746a2c7614a77ac345111db1b717c",
+      "fields": {
+        "provincia": "Salamanca",
+        "altas": 607,
+        "fallecimientos": 252,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 78,
+        "codigo_ine": 37274,
+        "casos_confirmados": 2193,
+        "posicion": [
+          40.833333,
+          -6
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6,
+          40.833333
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
+    {
+      "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
+      "recordid": "10553a55f830a7bc0f1121a0cce8a7c7841f0ea8",
+      "fields": {
+        "provincia": "Soria",
+        "altas": 237,
+        "fallecimientos": 83,
+        "fecha": "2020-04-12",
+        "nuevos_positivos": 63,
+        "codigo_ine": 42173,
+        "casos_confirmados": 990,
+        "posicion": [
+          41.666667,
+          -2.666667
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.666667,
+          41.666667
+        ]
+      },
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
+    },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
       "recordid": "574ed38e99dae07ca091bcb4e0d05e4b094cdf47",
@@ -39,7 +1164,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -64,7 +1189,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -89,7 +1214,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -114,7 +1239,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -139,7 +1264,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -164,7 +1289,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -189,7 +1314,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -214,7 +1339,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -239,7 +1364,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -264,7 +1389,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -289,7 +1414,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -314,7 +1439,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -339,7 +1464,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -364,7 +1489,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -389,7 +1514,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -414,7 +1539,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -439,7 +1564,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -464,7 +1589,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -489,7 +1614,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -514,7 +1639,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -539,7 +1664,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -564,7 +1689,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -589,7 +1714,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -614,7 +1739,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -639,7 +1764,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -664,7 +1789,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -689,7 +1814,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -714,7 +1839,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -739,7 +1864,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -764,7 +1889,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -789,7 +1914,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -814,7 +1939,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -839,7 +1964,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -864,7 +1989,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -889,7 +2014,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -914,7 +2039,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -939,7 +2064,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -964,7 +2089,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -989,7 +2114,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1014,7 +2139,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1039,7 +2164,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1064,7 +2189,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1089,7 +2214,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1114,7 +2239,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1139,7 +2264,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1164,7 +2289,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1189,7 +2314,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1214,7 +2339,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1239,7 +2364,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1264,7 +2389,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1289,7 +2414,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1314,7 +2439,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1339,7 +2464,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1364,7 +2489,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1389,7 +2514,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1414,7 +2539,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1439,7 +2564,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1464,7 +2589,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1489,7 +2614,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1514,7 +2639,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1539,7 +2664,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1564,7 +2689,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1589,7 +2714,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1614,7 +2739,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1639,7 +2764,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1664,7 +2789,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1689,7 +2814,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1714,7 +2839,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1739,7 +2864,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1764,7 +2889,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1789,7 +2914,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1814,7 +2939,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1839,7 +2964,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1864,7 +2989,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1889,7 +3014,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1914,7 +3039,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1939,7 +3064,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1964,7 +3089,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -1989,7 +3114,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2014,7 +3139,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2039,7 +3164,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2064,7 +3189,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2089,7 +3214,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2114,7 +3239,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2139,7 +3264,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2164,7 +3289,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2189,7 +3314,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2214,7 +3339,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2239,7 +3364,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2264,7 +3389,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2289,7 +3414,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2314,7 +3439,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2339,7 +3464,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2364,7 +3489,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2389,7 +3514,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2414,7 +3539,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2439,7 +3564,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2464,7 +3589,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2489,7 +3614,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2514,7 +3639,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2539,7 +3664,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2564,7 +3689,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2589,7 +3714,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2614,7 +3739,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2639,7 +3764,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2664,7 +3789,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2689,7 +3814,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2714,7 +3839,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2739,7 +3864,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2764,7 +3889,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2789,7 +3914,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2814,7 +3939,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2839,7 +3964,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2864,7 +3989,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2889,7 +4014,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2914,7 +4039,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2939,7 +4064,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2964,7 +4089,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -2989,7 +4114,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3014,7 +4139,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3039,7 +4164,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3064,7 +4189,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3089,7 +4214,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3114,7 +4239,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3139,7 +4264,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3164,7 +4289,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3189,7 +4314,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3214,7 +4339,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3239,7 +4364,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3264,7 +4389,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3289,7 +4414,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3314,7 +4439,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3339,7 +4464,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3364,7 +4489,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3389,7 +4514,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3414,7 +4539,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3439,7 +4564,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3464,7 +4589,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3489,7 +4614,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3514,7 +4639,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3539,7 +4664,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3564,7 +4689,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3589,7 +4714,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3614,7 +4739,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3639,7 +4764,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3664,7 +4789,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3689,7 +4814,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3714,7 +4839,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3739,7 +4864,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3764,7 +4889,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3789,7 +4914,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3814,7 +4939,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3839,7 +4964,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3864,7 +4989,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3889,7 +5014,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3914,7 +5039,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3939,7 +5064,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3964,7 +5089,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -3989,7 +5114,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4014,7 +5139,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4039,7 +5164,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4064,7 +5189,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4089,7 +5214,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4114,7 +5239,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4139,7 +5264,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4164,7 +5289,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4189,7 +5314,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4214,7 +5339,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4239,7 +5364,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4264,7 +5389,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4289,7 +5414,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4314,7 +5439,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4339,7 +5464,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4364,7 +5489,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4389,7 +5514,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4414,7 +5539,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4439,7 +5564,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4464,7 +5589,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4489,7 +5614,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4514,7 +5639,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4539,7 +5664,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4564,7 +5689,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4589,7 +5714,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4614,7 +5739,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4639,7 +5764,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4664,7 +5789,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4689,7 +5814,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4714,7 +5839,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4739,7 +5864,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4764,7 +5889,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4789,7 +5914,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4814,7 +5939,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4839,7 +5964,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4864,7 +5989,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4889,7 +6014,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4914,7 +6039,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4939,7 +6064,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4964,7 +6089,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -4989,7 +6114,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5014,7 +6139,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5039,7 +6164,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5064,7 +6189,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5089,7 +6214,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5114,7 +6239,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5139,7 +6264,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5164,7 +6289,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5189,7 +6314,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5214,7 +6339,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5239,7 +6364,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5264,7 +6389,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5289,7 +6414,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5314,7 +6439,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5339,7 +6464,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5364,7 +6489,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5389,7 +6514,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5414,7 +6539,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5439,7 +6564,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5464,7 +6589,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5489,7 +6614,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5514,7 +6639,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5539,7 +6664,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5564,7 +6689,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5589,7 +6714,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5614,7 +6739,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5639,7 +6764,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5664,7 +6789,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5689,7 +6814,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5714,7 +6839,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5739,7 +6864,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5764,7 +6889,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5789,7 +6914,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5814,7 +6939,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5839,7 +6964,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5864,7 +6989,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5889,7 +7014,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5914,7 +7039,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5939,7 +7064,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5964,7 +7089,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -5989,7 +7114,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6014,7 +7139,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6039,7 +7164,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6064,7 +7189,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6089,7 +7214,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6114,7 +7239,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6139,7 +7264,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6164,7 +7289,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6189,7 +7314,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6214,7 +7339,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6239,7 +7364,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6264,7 +7389,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6289,7 +7414,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6314,7 +7439,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6339,7 +7464,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6364,7 +7489,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6389,7 +7514,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6414,7 +7539,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6439,7 +7564,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6464,7 +7589,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6489,7 +7614,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6514,7 +7639,7 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6539,7 +7664,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6564,7 +7689,7 @@ const epidemiologicalData =
           42.383333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6589,7 +7714,7 @@ const epidemiologicalData =
           40.833333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6614,7 +7739,7 @@ const epidemiologicalData =
           41.75
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6639,7 +7764,7 @@ const epidemiologicalData =
           41.166667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6664,7 +7789,7 @@ const epidemiologicalData =
           41.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6689,7 +7814,7 @@ const epidemiologicalData =
           40.616092
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6714,7 +7839,7 @@ const epidemiologicalData =
           42.666667
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6739,7 +7864,7 @@ const epidemiologicalData =
           42.432128
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     },
     {
       "datasetid": "situacion-epidemiologica-coronavirus-en-castilla-y-leon@jcyl",
@@ -6764,62 +7889,62 @@ const epidemiologicalData =
           41.583333
         ]
       },
-      "record_timestamp": "2020-04-11T11:09:49.778000+00:00"
+      "record_timestamp": "2020-04-16T10:18:38.178000+00:00"
     }
   ],
   "facet_groups": [
     {
       "facets": [
         {
-          "count": 30,
+          "count": 35,
           "path": "Burgos",
           "state": "displayed",
           "name": "Burgos"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "León",
           "state": "displayed",
           "name": "León"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Palencia",
           "state": "displayed",
           "name": "Palencia"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Salamanca",
           "state": "displayed",
           "name": "Salamanca"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Segovia",
           "state": "displayed",
           "name": "Segovia"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Soria",
           "state": "displayed",
           "name": "Soria"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Valladolid",
           "state": "displayed",
           "name": "Valladolid"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Zamora",
           "state": "displayed",
           "name": "Zamora"
         },
         {
-          "count": 30,
+          "count": 35,
           "path": "Ávila",
           "state": "displayed",
           "name": "Ávila"

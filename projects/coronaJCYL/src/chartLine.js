@@ -1,9 +1,8 @@
 Vue.component('line-chart', {
-  props: ["id", "data", "viewData"],
+  props: ["id", "data", "axis"],
   extends: VueChartJs.Line,
   methods: {
-    drawLine() {
-
+    drawBar() {
       const options = {
         legend: {
           display: false
@@ -12,67 +11,53 @@ Vue.component('line-chart', {
           yAxes: [{
             id: 'yAxisRightID',
             position: 'right',
-            gridLines: {
-              color: "rgba(240, 52, 52, 0.25)"
-            },
             ticks: {
               fontColor: "rgba(240, 52, 52, 0.75)",
-              max: this.id == this.viewData.stateName ? this.viewData.axisMax[this.viewData.value].new : this.viewData.axisMax[this.viewData.value].low,
+              max: this.axis,
               min: 0,
             },
             scaleLabel: {
               display: true,
-              rotation: 180,
               fontColor: "rgba(240, 52, 52, 1)",
-              labelString: `Nº de ${this.viewData.types.find(o => o.default == this.viewData.value).es} nuevos`
+              labelString: `Nº de hospitalizados en planta`
             }
           }, {
             id: 'yAxisLeftID',
             position: 'left',
-            gridLines: {
-              color: "rgba(44, 130, 201, 0.25)"
-            },
             ticks: {
               fontColor: 'rgba(44, 130, 201, 0.75)',
-              max: this.id == this.viewData.stateName ? this.viewData.axisMax[this.viewData.value].total : this.viewData.axisMax[this.viewData.value].new,
+              max: this.axis,
               min: 0
             },
             scaleLabel: {
-              fontColor: 'rgba(44, 130, 201, 1)',
               display: true,
-              labelString: `Nº de ${this.viewData.types.find(o => o.default == this.viewData.value).es} acumulados`
+              fontColor: 'rgba(44, 130, 201, 1)',
+              labelString: `Nº de hospitalizados en UCI`
             }
           }]
         },
         responsive: true,
         maintainAspectRatio: false
       };
-      console.log(JSON.stringify(Object.values(this.data).map(o => o.uci)))
       this.renderChart({
-        labels: Object.keys(this.data),
+        labels: Object.keys(this.data).map(o => o.slice(5)),
         datasets: [{
-          yAxisID: 'yAxisLeftID',
-          label: `${this.id}`,
-          lineTension: 0,
-          data: Object.values(this.data).map(o => o.uci),
-        }, {
           yAxisID: 'yAxisRightID',
-          label: `${this.id}`,
           lineTension: 0,
-          data: Object.values(this.data).map(o => o.plant),
+          fill: false,
+          borderColor: 'rgba(44, 130, 201, 1)',
+          data: Object.values(this.data).map(o => o.plant)
+        }, {
+          yAxisID: 'yAxisLeftID',
+          lineTension: 0,
+          fill: false,
+          backgroundColor: 'rgba(240, 52, 52, 1)',
+          data: Object.values(this.data).map(o => o.uci)
         }]
       }, options);
     }
   },
-  watch: {
-    selection: {
-      deep: true,
-      handler() {
-        this.drawLine();
-      }
-    }
-  },
   mounted() {
-    this.drawLine();
+    this.drawBar();
   }
 });

@@ -30,14 +30,15 @@
       </div>
       <!-- Charts -->
       <p class="font-weight-lighter">Comunidad autónoma: {{ name }}</p>
-      <!-- State chat-->
+      <!-- State chat -->
       <div>
-        <bar-chart :id="name" :data="epidemiologicalData[name]" :view-data="viewData"
-          v-show="viewData.value != 'hospital'">
-        </bar-chart>
-        <!--<line-chart :id="name" :data="hospitalData[name]" :view-data="viewData" v-if="loadHospitalData"
-          v-show="viewData.value == 'hospital'">
-        </line-chart>-->
+        <div v-show="!viewHospital">
+          <bar-chart :id="name" :data="epidemiologicalData[name]" :view-data="viewData"></bar-chart>
+        </div>
+        <div v-show="viewHospital">
+          <line-chart :id="name" :data="hospitalData[name]" :axis="viewData.axisMax.hospital.state">
+          </line-chart>
+        </div>
       </div>
       <hr />
       <!-- Provinces chats -->
@@ -47,11 +48,11 @@
           <div class="text-center">
             <p>{{pName}}</p>
           </div>
-          <bar-chart :id="pName" :data="epidemiologicalData[pName]" :view-data="viewData"
-            v-show="viewData.value != 'hospital'">
+          <bar-chart :id="pName" :data="epidemiologicalData[pName]" :view-data="viewData" v-show="!viewHospital">
           </bar-chart>
-          <!--<line-chart :id="pName" :data="hospitalData[pName]" :view-data="viewData" v-if="loadHospitalData"
-            v-show="viewData.value == 'hospital'"></line-chart>-->
+          <line-chart :id="pName" :data="hospitalData[pName]" :axis="viewData.axisMax.hospital.province"
+            v-show="viewHospital">
+          </line-chart>
         </div>
       </div>
     </div>
@@ -59,8 +60,8 @@
       <button class="btn btn-primary" @click="loadData">Reload</button>
     </div>
   </main>
-  <footer>
-    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v1.01 - Licence MIT</p>
+  <footer class="text-center">
+    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v3.00 - Licence MIT</p>
   </footer>
 
   <!-- Scripts -->
@@ -72,11 +73,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
   <script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
 
-  <!-- My scripts -->
+  <!-- My scripts
   <script src="src/raw/epidemiologicalData.js"></script>
-  <script src="src/raw/hospitalData.js"></script>
-  <script src="src/chartLine.js"></script>
+  <script src="src/raw/hospitalData.js"></script> -->
   <script src="src/chartBar.js"></script>
+  <script src="src/chartLine.js"></script>
   <script src="src/buttons.js"></script>
   <script src="src/app.js"></script>
 </body>
