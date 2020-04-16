@@ -45,7 +45,8 @@
       <p class=" font-weight-lighter">Por provincia</p>
       <div class="row">
         <div class="col-lg-4 col-md-12" v-for="pName of provincesName">
-          <div class="text-center">
+          <hr />
+          <div class="text-center mt-2">
             <p>{{pName}}</p>
           </div>
           <bar-chart :id="pName" :data="epidemiologicalData[pName]" :view-data="viewData" v-show="!viewHospital">
@@ -61,7 +62,7 @@
     </div>
   </main>
   <footer class="text-center">
-    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v3.00 - Licence MIT</p>
+    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v3.20 - Licence MIT</p>
   </footer>
 
   <!-- Scripts -->

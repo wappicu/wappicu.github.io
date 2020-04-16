@@ -1,38 +1,35 @@
-Vue.component('line-chart', {
+Vue.component("line-chart", {
   props: ["id", "data", "axis"],
   extends: VueChartJs.Line,
   methods: {
     drawBar() {
       const options = {
-        legend: {
-          display: false
-        },
         scales: {
           yAxes: [{
-            id: 'yAxisRightID',
-            position: 'right',
+            id: "yAxisRightID",
+            position: "right",
             ticks: {
-              fontColor: "rgba(240, 52, 52, 0.75)",
+              display: false,
+              fontColor: "rgba(0, 0, 0, 1)",
               max: this.axis,
               min: 0,
             },
             scaleLabel: {
-              display: true,
-              fontColor: "rgba(240, 52, 52, 1)",
-              labelString: `Nº de hospitalizados en planta`
+              display: false,
+              fontColor: "rgba(0, 0, 0, 1)"
             }
           }, {
-            id: 'yAxisLeftID',
-            position: 'left',
+            id: "yAxisLeftID",
+            position: "left",
             ticks: {
-              fontColor: 'rgba(44, 130, 201, 0.75)',
+              fontColor: "rgba(0, 0, 0, 1)",
               max: this.axis,
               min: 0
             },
             scaleLabel: {
               display: true,
-              fontColor: 'rgba(44, 130, 201, 1)',
-              labelString: `Nº de hospitalizados en UCI`
+              fontColor: "rgba(0, 0, 0, 1)",
+              labelString: `Nº de hospitalizados`
             }
           }]
         },
@@ -42,16 +39,20 @@ Vue.component('line-chart', {
       this.renderChart({
         labels: Object.keys(this.data).map(o => o.slice(5)),
         datasets: [{
-          yAxisID: 'yAxisRightID',
+          yAxisID: "yAxisRightID",
+          label: "Planta",
           lineTension: 0,
           fill: false,
-          borderColor: 'rgba(44, 130, 201, 1)',
+          borderColor: "rgba(240, 52, 52, 1)",
+          backgroundColor: "rgba(240, 52, 52, 1)",
           data: Object.values(this.data).map(o => o.plant)
         }, {
-          yAxisID: 'yAxisLeftID',
+          yAxisID: "yAxisLeftID",
+          label: "UCI",
           lineTension: 0,
           fill: false,
-          backgroundColor: 'rgba(240, 52, 52, 1)',
+          backgroundColor: "rgba(44, 130, 201, 1)",
+          borderColor: "rgba(44, 130, 201, 1)",
           data: Object.values(this.data).map(o => o.uci)
         }]
       }, options);
