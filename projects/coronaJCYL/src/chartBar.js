@@ -75,6 +75,7 @@ Vue.component('bar-chart', {
     }
   },
   mounted() {
+    //console.log("mounted bar")
     if (this.viewData.value != "hospital")
       this.drawBar();
   }

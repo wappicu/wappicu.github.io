@@ -59,6 +59,7 @@ Vue.component("line-chart", {
     }
   },
   mounted() {
+    //console.log("Mounted line")
     this.drawBar();
   }
 });

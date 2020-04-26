@@ -112,7 +112,7 @@ var app = new Vue({
       provincesName.forEach(name => {
         res[name] = {};
       });
-
+      //console.log(`Res: ${provincesName}`)
       var data = [...hospitalData.records]
         .reverse()
         .reduce((acc,
@@ -120,7 +120,6 @@ var app = new Vue({
             provincia: state,
             hospitalizados_uci,
             hospitalizados_planta } }) => {
-
           if (acc.res[state][fecha]) {
             acc.res[state][fecha].uci += hospitalizados_uci;
             acc.res[state][fecha].plant += hospitalizados_planta;
@@ -145,18 +144,9 @@ var app = new Vue({
               plant: hospitalizados_planta,
               total: hospitalizados_planta + hospitalizados_uci
             };
-          }/*
-          if (acc.aux.state.uci < acc.res[stateName][fecha].uci)
-            acc.aux.state.uci = acc.res[stateName][fecha].uci
-          if (acc.aux.state.plant < acc.res[stateName][fecha].plant)
-            acc.aux.state.plant = acc.res[stateName][fecha].plant*/
+          }
           if (acc.aux.state < acc.res[stateName][fecha].total)
             acc.aux.state = acc.res[stateName][fecha].total
-          /*
-                    if (acc.aux.province.uci < acc.res[state][fecha].uci)
-                      acc.aux.province.uci = acc.res[state][fecha].uci
-                    if (acc.aux.province.plant < acc.res[state][fecha].plant)
-                      acc.aux.province.plant = acc.res[state][fecha].plant*/
           if (acc.aux.province < acc.res[state][fecha].total)
             acc.aux.province = acc.res[state][fecha].total
 
@@ -167,9 +157,9 @@ var app = new Vue({
     },
     formatData(stateName, epidemiologicalData, hospitalData) {
       var { provincesName, data, axisMax } = this.formateEpidemiological(stateName, epidemiologicalData);
-
+      //console.log("correct epidemiological")
       var { provincesName: pN2, data: dataHospital, error, axis: axisHospital } = this.formatHospital(stateName, hospitalData);
-
+      //console.log("correct hostial")
       if ((JSON.stringify(provincesName) != JSON.stringify(pN2))) {
         throw new Error("Provinces are diferent")
       }
@@ -184,7 +174,7 @@ var app = new Vue({
           low: this.calculate(axisMax[k].new, 1 / 6)
         };
       });
-
+      console.log("correct keys")
       this.viewData = {
         stateName,
         axisMax,
@@ -194,7 +184,7 @@ var app = new Vue({
           { en: "Discharged", es: "Altas", default: "discharged" }
         ], value: "cases"
       };
-
+      console.log("correct view data")
       if (!error) {
         this.hospitalData = dataHospital;
         this.viewData.axisMax.hospital = {
@@ -204,11 +194,11 @@ var app = new Vue({
         this.viewData.types.unshift({ en: "Hospital", es: "Hospitalizados", default: "hospital" });
         this.viewData.value = "hospital";
       }
-
+      console.log("correct error hospial")
       this.provincesName = provincesName;
       this.epidemiologicalData = data;
       this.name = stateName;
-
+      console.log("correct name")
       this.correctTransform = 0;
     },
     queryEpidemiological() {
@@ -267,6 +257,9 @@ var app = new Vue({
   computed: {
     viewHospital() {
       return this.viewData.value == "hospital";
+    },
+    loadedHostial() {
+      return this.viewData.value.indexOf("hospital") != -1;
     }
   },
   mounted() {
