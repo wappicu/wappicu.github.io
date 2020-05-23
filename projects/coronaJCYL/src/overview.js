@@ -6,41 +6,41 @@ Vue.component('over-view', {
     <label for="selectDay">Día: {{date}}</label>
     <input type="range" class="custom-range" min="0" :max="days.length - 1" step="1" id="selectDay" v-model="selectDay">
   </div>
-  <table class="table table-hover">
+  <table class="table">
   <thead>
     <tr>
-      <th scope="col" class="bg-light"></th>
-      <th scope="col" colspan="2">Casos</th>
-      <th scope="col" colspan="2" class="bg-light">Fallecidos</th>
-      <th scope="col" colspan="2">Altas</th>
-      <th scope="col" colspan="2" class="bg-light" v-if="dataHospital != {}">Hospitalizados</th>
+      <th scope="col"></th>
+      <th scope="col" colspan="2" class="table-primary">Casos</th>
+      <th scope="col" colspan="2">Fallecidos</th>
+      <!--<th scope="col" colspan="2">Altas</th>-->
+      <th scope="col" colspan="2" class="table-primary" v-if="dataHospital != {}">Hospitalizados</th>
     </tr>
     <tr>
-      <th scope="col" class="bg-light"></th>
+      <th scope="col"></th>
+      <th scope="col" class="table-primary">Acumulados</th>
+      <th scope="col" class="table-primary">Nuevos</th>
       <th scope="col">Acumulados</th>
       <th scope="col">Nuevos</th>
-      <th scope="col" class="bg-light">Acumulados</th>
-      <th scope="col" class="bg-light">Nuevos</th>
-      <th scope="col">Acumulados</th>
-      <th scope="col">Nuevos</th>
+      <!--<th scope="col">Acumulados</th>
+      <th scope="col">Nuevos</th>-->
       <template  v-if="dataHospital != {}">
-        <th scope="col" class="bg-light">Total</th>
-        <th scope="col" class="bg-light">UCI</th>
+        <th scope="col" class="table-primary">Total</th>
+        <th scope="col" class="table-primary">UCI</th>
       </template>
     </tr>
   </thead>
   <tbody>
-    <tr v-for="province in provinces">
+    <tr v-for="(province, index) in provinces" :class="{ 'font-weight-bold': index == 0 }">
       <th scope="row" class="text-right">{{province}}</th>
-      <td>{{ dataEpidemiologica[province][date].cases.total }}</td>
-      <td>{{ dataEpidemiologica[province][date].cases.new }}</td>
+      <td class="table-primary">{{ dataEpidemiologica[province][date].cases.total }}</td>
+      <td class="table-primary">{{ dataEpidemiologica[province][date].cases.new }}</td>
       <td>{{ dataEpidemiologica[province][date].deaths.total }}</td>
       <td>{{ dataEpidemiologica[province][date].deaths.new }}</td>
-      <td>{{ dataEpidemiologica[province][date].discharged.total }}</td>
-      <td>{{ dataEpidemiologica[province][date].discharged.new }}</td>
+      <!--<td>{{ dataEpidemiologica[province][date].discharged.total }}</td>
+      <td>{{ dataEpidemiologica[province][date].discharged.new }}</td>-->
       <template  v-if="dataHospital != {}">
-        <td class="bg-light">{{ dataHospital[province][date] ? dataHospital[province][date].total : "-" }}</td>
-        <td class="bg-light">{{ dataHospital[province][date] ? dataHospital[province][date].uci : "-" }}</td>
+        <td class="table-primary">{{ dataHospital[province][date] ? dataHospital[province][date].total : "-" }}</td>
+        <td class="table-primary">{{ dataHospital[province][date] ? dataHospital[province][date].uci : "-" }}</td>
       </template>
     </tr>
   </tbody>

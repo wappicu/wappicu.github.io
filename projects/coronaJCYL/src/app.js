@@ -179,11 +179,11 @@ var app = new Vue({
         stateName,
         axisMax,
         types: [
-          { en: "Overview", es: "Resumen", default: "overview" },
+          { en: "Overview", es: "Resumen diario", default: "overview" },
           { en: "Cases", es: "Casos", default: "cases" },
           { en: "Deaths", es: "Fallecidos", default: "deaths" },
-          { en: "Discharged", es: "Altas", default: "discharged" }
-        ], value: "cases"
+          //{ en: "Discharged", es: "Altas", default: "discharged" }
+        ], value: "overview"
       };
       //console.log("correct view data")
       if (!error) {
