@@ -174,31 +174,32 @@ var app = new Vue({
           low: this.calculate(axisMax[k].new, 1 / 6)
         };
       });
-      console.log("correct keys")
+      //console.log("correct keys")
       this.viewData = {
         stateName,
         axisMax,
         types: [
+          { en: "Overview", es: "Resumen", default: "overview" },
           { en: "Cases", es: "Casos", default: "cases" },
           { en: "Deaths", es: "Fallecidos", default: "deaths" },
           { en: "Discharged", es: "Altas", default: "discharged" }
         ], value: "cases"
       };
-      console.log("correct view data")
+      //console.log("correct view data")
       if (!error) {
         this.hospitalData = dataHospital;
         this.viewData.axisMax.hospital = {
           state: this.calculate(axisHospital.state, 1.05),
           province: this.calculate(axisHospital.province, 1.05)
         };
-        this.viewData.types.unshift({ en: "Hospital", es: "Hospitalizados", default: "hospital" });
-        this.viewData.value = "hospital";
+        this.viewData.types.push({ en: "Hospital", es: "Hospitalizados", default: "hospital" });
+        //this.viewData.value = "hospital";
       }
-      console.log("correct error hospial")
+      //console.log("correct error hospial")
       this.provincesName = provincesName;
       this.epidemiologicalData = data;
       this.name = stateName;
-      console.log("correct name")
+      //console.log("correct name")
       this.correctTransform = 0;
     },
     queryEpidemiological() {
@@ -255,15 +256,22 @@ var app = new Vue({
     }
   },
   computed: {
+    viewEpidemiological() {
+      return this.viewData.value != "hospital"
+        && this.viewData.value != "overview";
+    },
     viewHospital() {
       return this.viewData.value == "hospital";
+    },
+    viewOverview() {
+      return this.viewData.value == "overview";
     },
     loadedHostial() {
       return this.viewData.value.indexOf("hospital") != -1;
     }
   },
   mounted() {
-    console.log("on load")
+    //console.log("on load")
     this.loadData();
   }
 })

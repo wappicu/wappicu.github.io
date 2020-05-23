@@ -3,6 +3,10 @@ Vue.component('bar-chart', {
   extends: VueChartJs.Bar,
   methods: {
     drawBar() {
+      if (this.viewData.value == "hospital"
+          || this.viewData.value == "overview") {
+        return;
+      }
       const options = {
         legend: {
           display: false
@@ -69,14 +73,11 @@ Vue.component('bar-chart', {
     viewData: {
       deep: true,
       handler() {
-        if (this.viewData.value != "hospital")
           this.drawBar();
       }
     }
   },
   mounted() {
-    //console.log("mounted bar")
-    if (this.viewData.value != "hospital")
       this.drawBar();
   }
 });
