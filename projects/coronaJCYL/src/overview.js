@@ -3,12 +3,12 @@ Vue.component('over-view', {
   template:
     `<div class="text-center">
   <div>
-    <label for="selectDay">Día: {{date}}</label>
-    <input type="range" class="custom-range" min="0" :max="days.length - 1" step="1" id="selectDay" v-model="selectDay">
-    <div class="mb-2">
-      <button class="btn btn-outline-secondary" @click="selectDay--" :disabled="selectDay == 0">-</button>
-      <button class="btn btn-outline-secondary" @click="selectDay++" :disabled="selectDay == days.length - 1">+</button>
+    <div>
+      <button class="btn" @click="selectDay--" :disabled="selectDay == 0">&#60;</button>
+      <label for="selectDay">Día: {{date}}</label>
+      <button class="btn" @click="selectDay++" :disabled="selectDay == days.length - 1">&#62;</button>
     </div>
+    <input type="range" class="custom-range" min="0" :max="days.length - 1" step="1" id="selectDay" v-model="selectDay">
   </*div>
   <table class="table">
   <thead>
