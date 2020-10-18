@@ -9,7 +9,7 @@ Vue.component('over-view', {
       <button class="btn" @click="selectDay++" :disabled="selectDay == days.length - 1">&#62;</button>
     </div>
     <input type="range" class="custom-range" min="0" :max="days.length - 1" step="1" id="selectDay" v-model="selectDay">
-  </*div>
+  </div>
   <table class="table">
   <thead>
     <tr>

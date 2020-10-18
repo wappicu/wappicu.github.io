@@ -40,12 +40,12 @@ Vue.component("line-chart", {
         labels: Object.keys(this.data).map(o => o.slice(5)),
         datasets: [{
           yAxisID: "yAxisRightID",
-          label: "Planta",
+          label: "Total",
           lineTension: 0,
           fill: false,
           borderColor: "rgba(240, 52, 52, 1)",
           backgroundColor: "rgba(240, 52, 52, 1)",
-          data: Object.values(this.data).map(o => o.plant)
+          data: Object.values(this.data).map(o => o.total)
         }, {
           yAxisID: "yAxisLeftID",
           label: "UCI",

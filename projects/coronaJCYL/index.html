@@ -16,10 +16,10 @@
 <body class="bg-light">
 
   <main id="app">
-    <div class="container-md container-fluid" v-if="name != ''">
+    <div class="container-md container-fluid" v-if="state && state.name != ''">
       <!-- title -->
       <div class="text-center">
-        <p class="display-4 font-weight-light">Situación epidemiológica de COVID-19<br>{{ name }}</p>
+        <p class="display-4 font-weight-light">Situación epidemiológica de COVID-19<br>{{ state.name }}</p>
         <p class="text-muted font-weight-light">Datos proporcionados por la <a href="#">API pública de la JCyL</a></p>
         <hr />
       </div>
@@ -32,17 +32,17 @@
         </div>
       </div>
       <!-- Charts -->
-      <p class="font-weight-lighter">Comunidad autónoma: {{ name }}</p>
+      <p class="font-weight-lighter">Comunidad autónoma: {{ state.name }} ({{state.hab}} habitantes)</p>
       <!-- State chat -->
       <div>
         <div v-show="viewOverview">
-          <over-view :id="name" :data-epidemiologica="epidemiologicalData" :data-hospital="hospitalData"></over-view>
+          <over-view :id="state.name" :data-epidemiologica="epidemiologicalData" :data-hospital="hospitalData"></over-view>
         </div>
         <div v-show="viewEpidemiological">
-          <bar-chart :id="name" :data="epidemiologicalData[name]" :view-data="viewData"></bar-chart>
+          <bar-chart :id="state.name" :data="epidemiologicalData[state.name]" :view-data="viewData"></bar-chart>
         </div>
         <div v-if="loadedHostial" v-show="viewHospital">
-          <line-chart :id="name" :data="hospitalData[name]" :axis="viewData.axisMax.hospital.state">
+          <line-chart :id="state.name" :data="hospitalData[state.name]" :axis="viewData.axisMax.hospital.state">
           </line-chart>
         </div>
       </div>
@@ -51,14 +51,14 @@
       <div v-show="!viewOverview">
         <p class=" font-weight-lighter">Por provincia</p>
         <div class="row">
-          <div class="col-lg-4 col-md-12" v-for="pName of provincesName">
+          <div class="col-lg-4 col-md-12" v-for="province of provinces">
             <hr class="mb-1 mt-4" />
             <div class="text-center mt-2">
-              <p class="mb-0">{{pName}}</p>
+              <p class="mb-0">{{ province.name }} ({{province.hab}} habitantes)</p>
             </div>
-            <bar-chart :id="pName" :data="epidemiologicalData[pName]" :view-data="viewData" v-show="!viewHospital">
+            <bar-chart :id="province.name" :data="epidemiologicalData[province.name]" :view-data="viewData" v-show="!viewHospital">
             </bar-chart>
-            <line-chart :id="pName" :data="hospitalData[pName]" :axis="viewData.axisMax.hospital.province"
+            <line-chart :id="province.name" :data="hospitalData[province.name]" :axis="viewData.axisMax.hospital.province"
               v-if="loadedHostial" v-show="viewHospital">
             </line-chart>
           </div>
@@ -74,7 +74,7 @@
     </div>
   </main>
   <footer class="text-center">
-    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v4.02 - Licence MIT</p>
+    <p class="text-muted font-weight-light">Coronavirus Viewer JCYL API - v4.03 - Licence MIT</p>
   </footer>
 
   <!-- Scripts -->

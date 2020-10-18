@@ -20,7 +20,7 @@ Vue.component('bar-chart', {
             },
             ticks: {
               fontColor: "rgba(240, 52, 52, 0.75)",
-              max: this.viewData.axisMax[this.viewData.value][this.id == this.viewData.stateName ? "state" : "province"].low / 5.5,
+              max: this.viewData.axisMax[this.viewData.value][this.id == this.viewData.stateName ? "state" : "province"].low / (this.viewData.value == "cases" ? 6 : 4.3),
               min: 0,
             },
             scaleLabel: {

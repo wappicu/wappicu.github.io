@@ -2,8 +2,8 @@ var app = new Vue({
   el: '#app',
   data() {
     return {
-      name: "",
-      provincesName: [],
+      state: {},
+      provinces: [],
       epidemiologicalData: {},
       hospitalData: {},
       viewData: {}
@@ -112,7 +112,7 @@ var app = new Vue({
       provincesName.forEach(name => {
         res[name] = {};
       });
-      //console.log(`Res: ${provincesName}`)
+
       var data = [...hospitalData.records]
         .reverse()
         .reduce((acc,
@@ -196,7 +196,7 @@ var app = new Vue({
         //this.viewData.value = "hospital";
       }
       //console.log("correct error hospial")
-      this.provincesName = provincesName;
+      //this.provincesName = provincesName;
       this.epidemiologicalData = data;
       this.name = stateName;
       //console.log("correct name")
@@ -223,15 +223,24 @@ var app = new Vue({
     loadData() {
       Promise.allSettled([this.queryEpidemiological(), this.queryHospitalized()])
         .then(resolve => {
-          //console.log(resolve);
           var epidemiologicalData = resolve[0].status == 'fulfilled' ? resolve[0].value.data : undefined;
           var hospitalizedData = resolve[1].status == 'fulfilled' ? resolve[1].value.data : undefined;
-          /*
-          console.log("Castilla y León");
-          console.log(JSON.stringify(epidemiologicalResponse));
-          console.log(JSON.stringify(hospitalizedResponse));
-          */
+
           this.formatData("Castilla y León", epidemiologicalData, hospitalizedData);
+
+          this.state = { name: "Castilla y León", hab: "2.399.548" };
+
+          this.provinces = [
+            { name: "Valladolid", hab: "519.546" },
+            { name: "León", hab: "460.001" },
+            { name: "Burgos", hab: "356.958" },
+            { name: "Salamanca", hab: "330.119" },
+            { name: "Palencia", hab: "160.980" },
+            { name: "Ávila", hab: "157.640" },
+            { name: "Segovia", hab: "153.129" },
+            { name: "Zamora", hab: "172.539" },
+            { name: "Soria", hab: "88.636" },
+          ];
         })
         .catch(error => console.log(`Error: ${error}`));
     },
@@ -271,7 +280,6 @@ var app = new Vue({
     }
   },
   mounted() {
-    //console.log("on load")
     this.loadData();
   }
 })
